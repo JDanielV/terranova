@@ -1,8 +1,9 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "ACAA,UAAU;EACR,WAAW,EAAE,oBAAoB;EACjC,GAAG,EAAE,wCAAwC;;;AAG/C,UAAU;EACR,WAAW,EAAE,2BAA2B;EACxC,GAAG,EAAE,8CAA8C;;;AAGrD,UAAU;EACR,WAAW,EAAE,mBAAmB;EAChC,GAAG,EAAE,uCAAuC;;;AAG9C,UAAU;EACR,WAAW,EAAE,0BAA0B;EACvC,GAAG,EAAE,6CAA6C;;;AAGpD,UAAU;EACR,WAAW,EAAE,mBAAmB;EAChC,GAAG,EAAE,uCAAuC;;;AAG9C,UAAU;EACR,WAAW,EAAE,0BAA0B;EACvC,GAAG,EAAE,6CAA6C;;;AAGpD,UAAU;EACR,WAAW,EAAE,qBAAqB;EAClC,GAAG,EAAE,yCAAyC;;;AAGhD,UAAU;EACR,WAAW,EAAE,4BAA4B;EACzC,GAAG,EAAE,+CAA+C",
     "sources": [
-        "main.scss"
+        "main.scss",
+        "_partials/_fonts.scss"
     ],
     "names": [],
     "file": "main.css"
