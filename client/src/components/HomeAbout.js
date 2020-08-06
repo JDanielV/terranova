@@ -3,7 +3,7 @@ import React from "react";
 const HomeAbout = () => {
   return (
     // HOME HTML STARTS HERE
-    <div className="home-about">
+    <section className="home-about">
       <div className="home-about__pic1-container">
         <img
           className="home-about__pic1"
@@ -71,7 +71,7 @@ const HomeAbout = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
