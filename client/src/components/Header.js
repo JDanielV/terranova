@@ -12,15 +12,24 @@ const Header = () => {
             alt="terranova sales logo"
           />
         </div>
-        <ul className="header__ul">
-          <li className="header__li">About Us</li>
-          <li className="header__li">Products</li>
-          <li className="header__li">Services</li>
-          <li className="header__li">Contact</li>
-        </ul>
-        <div className="header__language-wrapper">
-          <span className="header__language">EN</span>
-          <span className="header__language">ES</span>
+        <div className="header__nav-hamburger-wrapper">
+          <img
+            className="header__nav-hamburger"
+            src="./assets/icons/hamburger-icon.png"
+            alt="display nav button"
+          />
+        </div>
+        <div className="header__nav-links">
+          <ul className="header__ul">
+            <li className="header__li">About Us</li>
+            <li className="header__li">Products</li>
+            <li className="header__li">Services</li>
+            <li className="header__li">Contact</li>
+          </ul>
+          <div className="header__language-wrapper">
+            <span className="header__language">EN</span>
+            <span className="header__language">ES</span>
+          </div>
         </div>
       </nav>
     </header>

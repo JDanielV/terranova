@@ -37,4 +37,201 @@
   font-family: "Circular Std Medium Italic";
   src: url(/assets/fonts/CircularStd-MediumItalic.otf);
 }
+
+.header {
+  width: 100vw;
+  height: 3.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: fixed;
+  background-color: white;
+  z-index: 10;
+  top: 0.01rem;
+}
+
+.header__logo {
+  width: 12rem;
+  height: auto;
+}
+
+.header__nav {
+  padding: 0.5rem 0 0.5rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 2.5rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90vw;
+}
+
+.header__nav-links {
+  display: none;
+}
+
+.header__phone {
+  display: none;
+}
+
+.header__nav-hamburger {
+  width: 25px;
+  height: 20px;
+}
+
+.header__nav-hamburger-wrapper {
+  position: absolute;
+  right: 1.3rem;
+}
+
+@font-face {
+  font-family: "Circular Std Black";
+  src: url(/assets/fonts/CircularStd-Black.otf);
+}
+
+@font-face {
+  font-family: "Circular Std Black Italic";
+  src: url(/assets/fonts/CircularStd-BlackItalic.otf);
+}
+
+@font-face {
+  font-family: "Circular Std Bold";
+  src: url(/assets/fonts/CircularStd-Bold.otf);
+}
+
+@font-face {
+  font-family: "Circular Std Bold Italic";
+  src: url(/assets/fonts/CircularStd-BoldItalic.otf);
+}
+
+@font-face {
+  font-family: "Circular Std Book";
+  src: url(/assets/fonts/CircularStd-Book.otf);
+}
+
+@font-face {
+  font-family: "Circular Std Book Italic";
+  src: url(/assets/fonts/CircularStd-BookItalic.otf);
+}
+
+@font-face {
+  font-family: "Circular Std Medium";
+  src: url(/assets/fonts/CircularStd-Medium.otf);
+}
+
+@font-face {
+  font-family: "Circular Std Medium Italic";
+  src: url(/assets/fonts/CircularStd-MediumItalic.otf);
+}
+
+.home-about {
+  max-width: 100vw;
+  margin-top: 4rem;
+}
+
+.home-about__pic-cluster {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 68vh;
+  position: relative;
+}
+
+.home-about__pic1 {
+  width: 100%;
+}
+
+.home-about__pic1-container {
+  width: 50%;
+  height: auto;
+  overflow: hidden;
+}
+
+.home-about__pic2 {
+  width: 100%;
+}
+
+.home-about__pic2-container {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.home-about__home-title {
+  font-family: "Circular Std Bold";
+  font-size: 1.8rem;
+  color: #fc6414;
+}
+
+.home-about__home-title-container {
+  width: 13.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  padding-left: 1rem;
+}
+
+.home-about__circular-pic1-container {
+  position: absolute;
+  width: 13.5rem;
+  height: 13.5rem;
+  left: 32%;
+  margin-left: -50px;
+  top: 22%;
+}
+
+.home-about__circular-pic1 {
+  width: 75%;
+}
+
+.home-about__circular-pic1-outer-circle {
+  width: 13.5rem;
+  height: 13.5rem;
+  border: 1px solid lightgray;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 150px;
+}
+
+.home-about__about-container {
+  padding: 0 1rem 0 1rem;
+  color: #404040;
+}
+
+.home-about__about-title {
+  font-family: "Circular Std Bold";
+  color: #fc6414;
+  font-size: 1.1rem;
+}
+
+.home-about__about-subtitle {
+  font-family: "Circular Std Bold";
+  width: 80%;
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+
+body {
+  max-width: 100vw;
+  font-family: "Circular Std Book";
+}
 /*# sourceMappingURL=main.css.map */

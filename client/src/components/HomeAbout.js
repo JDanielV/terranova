@@ -4,40 +4,37 @@ const HomeAbout = () => {
   return (
     // HOME HTML STARTS HERE
     <section className="home-about">
-      <div className="home-about__pic1-container">
-        <img
-          className="home-about__pic1"
-          src="./assets/images/contenedores_01.png"
-          alt="containers"
-        />
-      </div>
       <div className="home-about__home-title-container">
         <h1 className="home-about__home-title">
           Manufacturers' Representative
         </h1>
       </div>
-      <div className="home-about__circular-pic1-container">
-        <div className="home-about__circular-pic1-outer-circle">
+      <div className="home-about__pic-cluster">
+        <div className="home-about__pic1-container">
           <img
-            className="home-about__circular-pic1"
-            src="./assets/images/deal.png"
-            alt="handshake deal"
+            className="home-about__pic1"
+            src="./assets/images/contenedores_01.png"
+            alt="containers"
           />
-          <a className="home-about__circular-pic1-arrow-container" href="#">
-            <img
-              className="home-about__circular-pic1-arrow"
-              src=""
-              alt="arrow down"
-            />
-          </a>
         </div>
-      </div>
-      <div className="home-about__pic2-container">
-        <img
-          className="home-about__pic2"
-          src="./assets/images/trailers_01.png"
-          alt="trailers"
-        />
+
+        <div className="home-about__circular-pic1-container">
+          <div className="home-about__circular-pic1-outer-circle">
+            <img
+              className="home-about__circular-pic1"
+              src="./assets/images/deal.png"
+              alt="handshake deal"
+            />
+          </div>
+        </div>
+
+        <div className="home-about__pic2-container">
+          <img
+            className="home-about__pic2"
+            src="./assets/images/trailers_01.png"
+            alt="trailers"
+          />
+        </div>
       </div>
 
       {/* ABOUT PAGE HTML STARTS HERE */}

@@ -1,0 +1,89 @@
+@import "./variables";
+@import "./fonts";
+
+.home-about {
+  max-width: 100vw;
+  margin-top: 4rem;
+
+  &__pic-cluster {
+    display: flex;
+    height: 68vh;
+    position: relative;
+  }
+
+  &__pic1 {
+    width: 100%;
+
+    &-container {
+      width: 50%;
+      height: auto;
+      overflow: hidden;
+    }
+  }
+
+  &__pic2 {
+    width: 100%;
+
+    &-container {
+      width: 50%;
+      display: flex;
+      align-items: flex-end;
+    }
+  }
+
+  &__home-title {
+    font-family: "Circular Std Bold";
+    font-size: 1.8rem;
+    color: $terranova-orange;
+
+    &-container {
+      width: 13.5rem;
+      margin-left: auto;
+      margin-right: auto;
+      height: auto;
+      padding-left: 1rem;
+    }
+  }
+
+  &__circular-pic1-container {
+    position: absolute;
+    width: 13.5rem;
+    height: 13.5rem;
+    left: 32%;
+    margin-left: -50px;
+    top: 22%;
+  }
+
+  &__circular-pic1 {
+    width: 75%;
+
+    &-outer-circle {
+      width: 13.5rem;
+      height: 13.5rem;
+      border: 1px solid lightgray;
+      background-color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 150px;
+    }
+  }
+
+  &__about {
+    &-container {
+      padding: 0 1rem 0 1rem;
+      color: $text-color;
+    }
+    &-title {
+      font-family: "Circular Std Bold";
+      color: $terranova-orange;
+      font-size: 1.1rem;
+    }
+    &-subtitle {
+      font-family: "Circular Std Bold";
+      width: 80%;
+      font-size: 2rem;
+      margin-top: 1rem;
+    }
+  }
+}

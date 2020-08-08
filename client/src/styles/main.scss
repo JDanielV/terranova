@@ -1,3 +1,9 @@
 @import "_partials/fonts";
 @import "_partials/header";
 @import "_partials/variables";
+@import "_partials/home-about";
+
+body {
+  max-width: 100vw;
+  font-family: "Circular Std Book";
+}
