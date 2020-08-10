@@ -213,21 +213,154 @@
 }
 
 .home-about__about-container {
+  margin-top: 3rem;
   padding: 0 1rem 0 1rem;
   color: #404040;
 }
 
+.home-about__about-circular-pic2-container {
+  display: none;
+  background: url("/assets/images/norteamerica_02.png");
+  width: 13.5rem;
+  height: 13.5rem;
+  border-radius: 150px;
+  background-position: 50% 45%;
+  background-size: 230px;
+  margin-left: 6.5rem;
+}
+
 .home-about__about-title {
   font-family: "Circular Std Bold";
+  margin-bottom: 0.6rem;
   color: #fc6414;
   font-size: 1.1rem;
+  letter-spacing: 1px;
 }
 
 .home-about__about-subtitle {
   font-family: "Circular Std Bold";
   width: 80%;
   font-size: 2rem;
-  margin-top: 1rem;
+  margin-top: 0.6rem;
+  margin-bottom: 0.8rem;
+}
+
+.home-about__about-descr-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.home-about__about-descr-indent {
+  width: 17%;
+  height: 0.15rem;
+  margin-top: 1.7rem;
+  background-color: #fc6414;
+}
+
+.home-about__about-paragraph-wrapper {
+  font-family: "Circular Std Book";
+  width: 75%;
+  margin-left: 0.8rem;
+}
+
+.home-about__about-paragraph {
+  line-height: 1.5rem;
+  margin-bottom: 1.3rem;
+}
+
+@font-face {
+  font-family: "Circular Std Black";
+  src: url(/assets/fonts/CircularStd-Black.otf);
+}
+
+@font-face {
+  font-family: "Circular Std Black Italic";
+  src: url(/assets/fonts/CircularStd-BlackItalic.otf);
+}
+
+@font-face {
+  font-family: "Circular Std Bold";
+  src: url(/assets/fonts/CircularStd-Bold.otf);
+}
+
+@font-face {
+  font-family: "Circular Std Bold Italic";
+  src: url(/assets/fonts/CircularStd-BoldItalic.otf);
+}
+
+@font-face {
+  font-family: "Circular Std Book";
+  src: url(/assets/fonts/CircularStd-Book.otf);
+}
+
+@font-face {
+  font-family: "Circular Std Book Italic";
+  src: url(/assets/fonts/CircularStd-BookItalic.otf);
+}
+
+@font-face {
+  font-family: "Circular Std Medium";
+  src: url(/assets/fonts/CircularStd-Medium.otf);
+}
+
+@font-face {
+  font-family: "Circular Std Medium Italic";
+  src: url(/assets/fonts/CircularStd-MediumItalic.otf);
+}
+
+.products {
+  max-width: 100vw;
+  overflow: hidden;
+  color: #404040;
+  background-color: #f8f1de;
+  padding: 1rem 1rem 1rem 1rem;
+}
+
+.products__title {
+  font-family: "Circular Std Bold";
+  width: 85%;
+  font-size: 2rem;
+}
+
+.products__products-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.products__product-category-img {
+  height: 15rem;
+  width: auto;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.products__product-category-img-container {
+  overflow: hidden;
+  height: 15rem;
+}
+
+.products__product-category-img-container:hover img {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.products__product-category-descr {
+  width: 80%;
+  font-family: "Circular Std Bold";
+  color: #686868;
+  text-align: center;
+  margin: 1rem auto 2rem auto;
 }
 
 body {

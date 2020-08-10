@@ -1,0 +1,45 @@
+@import "./variables";
+@import "./fonts";
+
+.products {
+  max-width: 100vw;
+  overflow: hidden;
+  color: $text-color;
+  background-color: $section-bg-color;
+  padding: 1rem 1rem 1rem 1rem;
+
+  &__title {
+    font-family: "Circular Std Bold";
+    width: 85%;
+    font-size: 2rem;
+  }
+
+  &__products-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  &__product-category-img {
+    height: 15rem;
+    width: auto;
+    transform: scale(1.2);
+    transition: all 0.3s;
+
+    &-container {
+      overflow: hidden;
+      height: 15rem;
+
+      &:hover img {
+        transform: scale(1);
+      }
+    }
+  }
+  &__product-category-descr {
+    width: 80%;
+    font-family: "Circular Std Bold";
+    color: $terranova-gray;
+    text-align: center;
+    margin: 1rem auto 2rem auto;
+  }
+}

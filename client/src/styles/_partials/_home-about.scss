@@ -69,21 +69,70 @@
     }
   }
 
+  // ABOUT SECTION BEGINS HERE
+
   &__about {
     &-container {
+      margin-top: 3rem;
       padding: 0 1rem 0 1rem;
       color: $text-color;
     }
+
+    &-circular-pic2-container {
+      display: none;
+      background: url("/assets/images/norteamerica_02.png");
+      width: 13.5rem;
+      height: 13.5rem;
+      border-radius: 150px;
+      background-position: 50% 45%;
+      background-size: 230px;
+      margin-left: 6.5rem;
+
+      // DESKTOP VIEW RULES FOLLOWING
+
+      // background: url("/assets/images/norteamerica_full.png");
+      // background-position: 7% 25%;
+      // background-size: 600px;
+      // border-radius: 150px;
+      // width: 13.5rem;
+      // height: 13.5rem;
+    }
+
     &-title {
       font-family: "Circular Std Bold";
+      margin-bottom: 0.6rem;
       color: $terranova-orange;
       font-size: 1.1rem;
+      letter-spacing: 1px;
     }
     &-subtitle {
       font-family: "Circular Std Bold";
       width: 80%;
       font-size: 2rem;
-      margin-top: 1rem;
+      margin-top: 0.6rem;
+      margin-bottom: 0.8rem;
+    }
+
+    &-descr-wrapper {
+      display: flex;
+    }
+
+    &-descr-indent {
+      width: 17%;
+      height: 0.15rem;
+      margin-top: 1.7rem;
+      background-color: $terranova-orange;
+    }
+
+    &-paragraph-wrapper {
+      font-family: "Circular Std Book";
+      width: 75%;
+      margin-left: 0.8rem;
+    }
+
+    &-paragraph {
+      line-height: 1.5rem;
+      margin-bottom: 1.3rem;
     }
   }
 }

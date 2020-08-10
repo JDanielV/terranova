@@ -40,9 +40,7 @@ const HomeAbout = () => {
       {/* ABOUT PAGE HTML STARTS HERE */}
 
       <div className="home-about__about-container">
-        <div className="home-about__circular-pic2-container">
-          <div className="home-about__circular-pic2" />
-        </div>
+        <div className="home-about__about-circular-pic2-container"></div>
         <div className="home-about__about-text">
           <h2 className="home-about__about-title">About Us</h2>
           <h3 className="home-about__about-subtitle">
