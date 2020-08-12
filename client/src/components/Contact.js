@@ -48,7 +48,9 @@ const Contact = () => {
 
       {/* FOOTER STARTS */}
       <footer className="contact__footer">
-        <span className="contact__footer-company">Terranova Sales</span>
+        <span className="contact__footer-company">
+          Terranova Marketing Inc.
+        </span>
         <img
           className="contact__footer-logo"
           src="./assets/logo/terranova_ic.svg"
