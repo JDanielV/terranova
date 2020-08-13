@@ -21,27 +21,29 @@ const Services = () => {
       />
       {/* SERVICES CLUSTER 1 */}
       <div className="services__cluster1-content">
-        <div className="services__cluster1-wrapper">
-          <div className="services__cluster1-img1-container">
-            <img
-              className="services__cluster1-img1"
-              src="./assets/images/consultoria_01.png"
-              alt="strategy planning"
-            />
-          </div>
-          <div className="services__cluster1-handshake-bg">
-            <img
-              className="services__cluster1-handshake"
-              src="./assets/images/consultoria_04.png"
-              alt="handshake"
-            />
-          </div>
-          <div className="services__cluster1-img2-container">
-            <img
-              className="services__cluster1-img2"
-              src="./assets/images/consultoria_02.png"
-              alt="containers at port"
-            />
+        <div className="services__cluster1-imgs-container">
+          <div className="services__cluster1-wrapper">
+            <div className="services__cluster1-img1-container">
+              <img
+                className="services__cluster1-img1"
+                src="./assets/images/consultoria_01.png"
+                alt="strategy planning"
+              />
+            </div>
+            <div className="services__cluster1-handshake-bg">
+              <img
+                className="services__cluster1-handshake"
+                src="./assets/images/consultoria_04.png"
+                alt="handshake"
+              />
+            </div>
+            <div className="services__cluster1-img2-container">
+              <img
+                className="services__cluster1-img2"
+                src="./assets/images/consultoria_02.png"
+                alt="containers at port"
+              />
+            </div>
           </div>
         </div>
         <div className="services__cluster1-text-wrapper">
