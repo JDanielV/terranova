@@ -57,29 +57,33 @@ const Services = () => {
       </div>
 
       {/* SERVICES CLUSTER 2 */}
-      <div className="services__cluster2-wrapper">
-        <img
-          className="services__cluster2-img1"
-          src="./assets/images/logistica_01.png"
-          alt="logistics"
-        />
-        <div className="services__cluster2-trailer-bg">
-          <img
-            className="services__cluster2-trailer"
-            src="./assets/images/logistica_04.png"
-            alt="cargo trailer"
-          />
+      <div className="services__cluster2-content">
+        <div className="services__cluster2-imgs-container">
+          <div className="services__cluster2-wrapper">
+            <img
+              className="services__cluster2-img1"
+              src="./assets/images/logistica_01.png"
+              alt="logistics"
+            />
+            <div className="services__cluster2-trailer-bg">
+              <img
+                className="services__cluster2-trailer"
+                src="./assets/images/logistica_04.png"
+                alt="cargo trailer"
+              />
+            </div>
+            <img
+              className="services__cluster2-img2"
+              src="./assets/images/logistica_02.png"
+              alt="warehouse"
+            />
+          </div>
         </div>
-        <img
-          className="services__cluster2-img2"
-          src="./assets/images/logistica_02.png"
-          alt="warehouse"
-        />
-        <div className="services__cluster2-text-wrapper">
-          <h3 className="services__cluster2-subtitle">
+        <div className="services__cluster1-text-wrapper">
+          <h3 className="services__cluster1-subtitle">
             Logistics: freight, importing, warehousing
           </h3>
-          <p className="services__cluster2-paragraph">
+          <p className="services__cluster1-paragraph">
             We offer freght, importing into Canada and warehousing services.
           </p>
         </div>

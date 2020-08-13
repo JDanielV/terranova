@@ -11,9 +11,9 @@
   padding: 1rem 1rem 1rem 1rem;
 
   &__title {
-    font-family: "Circular Std Bold";
+    font-family: "Circular Std Black";
     width: 85%;
-    font-size: 2rem;
+    font-size: $subtitle-font-size-mobile;
   }
 
   &__products-wrapper {
@@ -41,9 +41,10 @@
   }
   &__product-category-descr {
     width: 80%;
-    font-family: "Circular Std Bold";
+    font-family: "Circular Std Black";
     color: $terranova-gray;
     text-align: center;
     margin: 1rem auto 2rem auto;
+    font-size: $paragraph-font-size-mobile;
   }
 }

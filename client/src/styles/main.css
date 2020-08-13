@@ -171,7 +171,7 @@
 }
 
 .home-about__home-title {
-  font-family: "Circular Std Bold";
+  font-family: "Circular Std Black";
   font-size: 1.8rem;
   color: #fc6414;
 }
@@ -234,15 +234,15 @@
 }
 
 .home-about__about-title {
-  font-family: "Circular Std Bold";
+  font-family: "Circular Std Black";
   margin-bottom: 0.6rem;
   color: #fc6414;
-  font-size: 1.1rem;
-  letter-spacing: 1px;
+  font-size: 1.125rem;
+  letter-spacing: 2px;
 }
 
 .home-about__about-subtitle {
-  font-family: "Circular Std Bold";
+  font-family: "Circular Std Black";
   width: 80%;
   font-size: 2rem;
   margin-top: 0.6rem;
@@ -266,6 +266,7 @@
   font-family: "Circular Std Book";
   width: 75%;
   margin-left: 0.8rem;
+  font-size: 1.2rem;
 }
 
 .home-about__about-paragraph {
@@ -325,7 +326,7 @@
 }
 
 .products__title {
-  font-family: "Circular Std Bold";
+  font-family: "Circular Std Black";
   width: 85%;
   font-size: 2rem;
 }
@@ -366,10 +367,11 @@
 
 .products__product-category-descr {
   width: 80%;
-  font-family: "Circular Std Bold";
+  font-family: "Circular Std Black";
   color: #686868;
   text-align: center;
   margin: 1rem auto 2rem auto;
+  font-size: 1rem;
 }
 
 @font-face {
@@ -429,15 +431,15 @@
 }
 
 .services__title {
-  font-family: "Circular Std Bold";
+  font-family: "Circular Std Black";
   margin-bottom: 0.6rem;
   color: #fc6414;
-  font-size: 1.1rem;
-  letter-spacing: 1px;
+  font-size: 1.125rem;
+  letter-spacing: 2px;
 }
 
 .services__subtitle {
-  font-family: "Circular Std Bold";
+  font-family: "Circular Std Black";
   width: 80%;
   font-size: 2rem;
   margin-top: 0.6rem;
@@ -453,7 +455,7 @@
 
 .services__indent {
   width: 17%;
-  height: 0.15rem;
+  height: 0.1rem;
   margin-top: 1.7rem;
   background-color: #fc6414;
 }
@@ -462,6 +464,7 @@
   width: 100%;
   margin-left: 0.8rem;
   line-height: 1.5rem;
+  font-size: 1rem;
 }
 
 .services__hero-img {
@@ -555,6 +558,23 @@
           justify-content: flex-end;
   width: 35%;
   z-index: 3;
+}
+
+.services__cluster1-text-wrapper {
+  width: 80%;
+  margin: 1rem auto 3rem auto;
+  font-size: 1.2rem;
+}
+
+.services__cluster1-subtitle {
+  font-family: "Circular Std Black";
+  color: #404040;
+  margin-bottom: 1rem;
+}
+
+.services__cluster1-paragraph {
+  color: #686868;
+  margin-top: 1rem;
 }
 
 body {

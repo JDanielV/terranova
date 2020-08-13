@@ -16,17 +16,17 @@
   }
 
   &__title {
-    font-family: "Circular Std Bold";
+    font-family: "Circular Std Black";
     margin-bottom: 0.6rem;
     color: $terranova-orange;
-    font-size: 1.1rem;
-    letter-spacing: 1px;
+    font-size: $title-font-size-mobile;
+    letter-spacing: 2px;
   }
 
   &__subtitle {
-    font-family: "Circular Std Bold";
+    font-family: "Circular Std Black";
     width: 80%;
-    font-size: 2rem;
+    font-size: $subtitle-font-size-mobile;
     margin-top: 0.6rem;
     margin-bottom: 0;
   }
@@ -38,7 +38,7 @@
 
   &__indent {
     width: 17%;
-    height: 0.15rem;
+    height: 0.1rem;
     margin-top: 1.7rem;
     background-color: $terranova-orange;
   }
@@ -47,11 +47,14 @@
     width: 100%;
     margin-left: 0.8rem;
     line-height: 1.5rem;
+    font-size: $paragraph-font-size-mobile;
   }
 
   &__hero-img {
     width: 100%;
   }
+
+  //   CLUSTER 1
 
   &__cluster1-imgs-container {
     width: 100%;
@@ -117,4 +120,23 @@
       z-index: 3;
     }
   }
+
+  &__cluster1-text-wrapper {
+    width: 80%;
+    margin: 1rem auto 3rem auto;
+    font-size: $text-font-size-mobile;
+  }
+
+  &__cluster1-subtitle {
+    font-family: "Circular Std Black";
+    color: $text-color;
+    margin-bottom: 1rem;
+  }
+
+  &__cluster1-paragraph {
+    color: $terranova-gray;
+    margin-top: 1rem;
+  }
+
+  // CLUSTER 2
 }

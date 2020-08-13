@@ -34,7 +34,7 @@
   }
 
   &__home-title {
-    font-family: "Circular Std Bold";
+    font-family: "Circular Std Black";
     font-size: 1.8rem;
     color: $terranova-orange;
 
@@ -103,16 +103,16 @@
     }
 
     &-title {
-      font-family: "Circular Std Bold";
+      font-family: "Circular Std Black";
       margin-bottom: 0.6rem;
       color: $terranova-orange;
-      font-size: 1.1rem;
-      letter-spacing: 1px;
+      font-size: $title-font-size-mobile;
+      letter-spacing: 2px;
     }
     &-subtitle {
-      font-family: "Circular Std Bold";
+      font-family: "Circular Std Black";
       width: 80%;
-      font-size: 2rem;
+      font-size: $subtitle-font-size-mobile;
       margin-top: 0.6rem;
       margin-bottom: 0.8rem;
     }
@@ -132,6 +132,7 @@
       font-family: "Circular Std Book";
       width: 75%;
       margin-left: 0.8rem;
+      font-size: $text-font-size-mobile;
     }
 
     &-paragraph {
