@@ -139,4 +139,62 @@
   }
 
   // CLUSTER 2
+
+  &__cluster2-imgs-container {
+    width: 100%;
+    padding-top: 100%;
+    position: relative;
+  }
+
+  &__cluster2-wrapper {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+
+  &__cluster2-img1 {
+    width: 100%;
+
+    &-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      width: 35%;
+      z-index: 3;
+    }
+  }
+
+  &__cluster2-trailer-bg {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("/assets/images/logistica_03.png");
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    width: 70%;
+    height: 70%;
+    left: 30%;
+    margin-left: -50px;
+    top: 15%;
+    z-index: 1;
+    border-radius: 150px;
+  }
+
+  &__cluster2-img2 {
+    width: 100%;
+
+    &-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      width: 35%;
+      z-index: 3;
+    }
+  }
 }

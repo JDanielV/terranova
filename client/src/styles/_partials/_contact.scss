@@ -1,0 +1,137 @@
+@import "./variables";
+@import "./fonts";
+
+.contact {
+  background-color: $section-bg-color;
+  box-sizing: border-box;
+  color: $text-color;
+  overflow: hidden;
+  padding: 0 1rem 3rem 1rem;
+
+  &__title {
+    width: 10.625rem;
+    margin: 0 auto 2rem auto;
+    font-family: "Circular Std Black";
+    font-size: $subtitle-font-size-mobile;
+  }
+
+  &__img-text-wrapper {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 15.875rem;
+    color: $terranova-gray;
+    font-size: $text-font-size-mobile;
+  }
+
+  &__img {
+    width: 100%;
+    display: block;
+    margin: 0 auto 3rem auto;
+    max-width: 15.875rem;
+  }
+
+  &__company-name {
+    color: $terranova-orange;
+
+    font-family: "Circular Std Bold";
+  }
+
+  &__office {
+    font-family: "Circular Std Black";
+    margin-bottom: 0.5rem;
+
+    &-address1 {
+      margin-top: 0;
+      margin-bottom: 0.5rem;
+    }
+
+    &-address2 {
+      margin-top: 0;
+      margin-bottom: 0.5rem;
+    }
+
+    &-address3 {
+      margin-top: 0;
+      margin-bottom: 0.5rem;
+    }
+  }
+
+  &__map-form-wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  &__map {
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    border-radius: 180px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+
+    &-container {
+      width: 100%;
+      padding-top: 100%;
+      position: relative;
+    }
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 3rem 0 3rem 0;
+
+    &-input {
+      height: 3rem;
+      border: none;
+      border-radius: 10px;
+      padding: 0 1rem 0 1rem;
+      font-size: $paragraph-font-size-mobile;
+      font-family: "Circular Std Book";
+      color: $text-color;
+      outline: none;
+      margin-bottom: 1.2rem;
+
+      &:focus {
+        border: 2px solid $text-color;
+      }
+    }
+
+    &-textarea {
+      height: 7rem;
+      border: none;
+      border-radius: 10px;
+      padding: 1rem;
+      font-size: $paragraph-font-size-mobile;
+      font-family: "Circular Std Book";
+      color: $text-color;
+      outline: none;
+      resize: none;
+      margin-bottom: 1.2rem;
+
+      &:focus {
+        border: 2px solid $text-color;
+      }
+    }
+
+    &-btn {
+      display: block;
+      width: 40%;
+      max-width: 9.563rem;
+      height: 3rem;
+      border: none;
+      background-color: $terranova-orange;
+      color: white;
+      font-family: "Circular Std Book";
+      border-radius: 10px;
+      margin-left: auto;
+      font-size: 0.8rem;
+      letter-spacing: 1px;
+    }
+  }
+}

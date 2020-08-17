@@ -60,23 +60,21 @@ const Services = () => {
       <div className="services__cluster2-content">
         <div className="services__cluster2-imgs-container">
           <div className="services__cluster2-wrapper">
-            <img
-              className="services__cluster2-img1"
-              src="./assets/images/logistica_01.png"
-              alt="logistics"
-            />
-            <div className="services__cluster2-trailer-bg">
+            <div className="services__cluster2-img1-container">
               <img
-                className="services__cluster2-trailer"
-                src="./assets/images/logistica_04.png"
-                alt="cargo trailer"
+                className="services__cluster2-img1"
+                src="./assets/images/logistica_01.png"
+                alt="logistics"
               />
             </div>
-            <img
-              className="services__cluster2-img2"
-              src="./assets/images/logistica_02.png"
-              alt="warehouse"
-            />
+            <div className="services__cluster2-trailer-bg"></div>
+            <div className="services__cluster2-img2-container">
+              <img
+                className="services__cluster2-img2"
+                src="./assets/images/logistica_02.png"
+                alt="warehouse"
+              />
+            </div>
           </div>
         </div>
         <div className="services__cluster1-text-wrapper">
@@ -84,7 +82,7 @@ const Services = () => {
             Logistics: freight, importing, warehousing
           </h3>
           <p className="services__cluster1-paragraph">
-            We offer freght, importing into Canada and warehousing services.
+            We offer freight, importing into Canada and warehousing services.
           </p>
         </div>
       </div>
