@@ -1036,6 +1036,106 @@
           align-items: center;
 }
 
+@font-face {
+  font-family: "Circular Std Black";
+  src: url(/assets/fonts/CircularStd-Black.otf);
+}
+
+@font-face {
+  font-family: "Circular Std Black Italic";
+  src: url(/assets/fonts/CircularStd-BlackItalic.otf);
+}
+
+@font-face {
+  font-family: "Circular Std Bold";
+  src: url(/assets/fonts/CircularStd-Bold.otf);
+}
+
+@font-face {
+  font-family: "Circular Std Bold Italic";
+  src: url(/assets/fonts/CircularStd-BoldItalic.otf);
+}
+
+@font-face {
+  font-family: "Circular Std Book";
+  src: url(/assets/fonts/CircularStd-Book.otf);
+}
+
+@font-face {
+  font-family: "Circular Std Book Italic";
+  src: url(/assets/fonts/CircularStd-BookItalic.otf);
+}
+
+@font-face {
+  font-family: "Circular Std Medium";
+  src: url(/assets/fonts/CircularStd-Medium.otf);
+}
+
+@font-face {
+  font-family: "Circular Std Medium Italic";
+  src: url(/assets/fonts/CircularStd-MediumItalic.otf);
+}
+
+.mobile-nav {
+  position: fixed;
+  background-color: #f6f6f6;
+  right: 0;
+  top: 0;
+  height: 100vh;
+  width: 75%;
+  z-index: 11;
+}
+
+.mobile-nav__layout-wrapper {
+  padding: 1rem 1.5rem 1rem 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 60%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.mobile-nav__close-wrapper {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.mobile-nav__links-wrapper {
+  height: 65%;
+  width: auto;
+  margin-left: auto;
+}
+
+.mobile-nav__links-ul {
+  list-style: none;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0;
+  margin: 0;
+}
+
+.mobile-nav__link {
+  color: #fc6414;
+  font-family: "Circular Std Bold";
+  font-size: 1.3rem;
+  text-align: end;
+}
+
 body {
   max-width: 100vw;
   font-family: "Circular Std Book";

@@ -1,0 +1,48 @@
+@import "./variables";
+@import "./fonts";
+
+.mobile-nav {
+  position: fixed;
+  background-color: $footer-bg-color;
+  right: 0;
+  top: 0;
+  height: 100vh;
+  width: 75%;
+  z-index: 11;
+  //   display: none;
+
+  &__layout-wrapper {
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+    justify-content: space-between;
+  }
+
+  &__close-wrapper {
+    align-self: flex-end;
+  }
+
+  &__links-wrapper {
+    height: 65%;
+    width: auto;
+    margin-left: auto;
+  }
+
+  &__links-ul {
+    list-style: none;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+  }
+
+  &__link {
+    color: $terranova-orange;
+    font-family: "Circular Std Bold";
+    font-size: 1.3rem;
+    text-align: end;
+  }
+}
