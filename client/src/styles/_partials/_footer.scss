@@ -39,13 +39,17 @@
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
+    overflow: hidden;
   }
 
   &__social-icon-link {
     width: 6rem;
+    height: 6.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    // height: 9.625rem;
+    padding-top: 2rem;
+    overflow: hidden;
+    box-sizing: border-box;
   }
 }
