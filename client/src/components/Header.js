@@ -1,6 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
+import MobileNav from "./MobileNav";
+import MobileNavBg from "./MobileNavBg";
 
 const Header = () => {
+  const [sidebarOpen, setSidebarOpen] = useState(false);
+
+  const sidebarClick = () => {
+    setSidebarOpen(!sidebarOpen);
+  };
+
   return (
     <header className="header">
       <nav className="header__nav">
@@ -17,6 +25,7 @@ const Header = () => {
             className="header__nav-hamburger"
             src="./assets/icons/hamburger-icon.png"
             alt="display nav button"
+            onClick={sidebarClick}
           />
         </div>
         <div className="header__nav-links">
@@ -31,6 +40,8 @@ const Header = () => {
             <span className="header__language">ES</span>
           </div>
         </div>
+        <MobileNav sidebarOpen={sidebarOpen} sidebarClose={sidebarClick} />
+        <MobileNavBg sidebarOpen={sidebarOpen} />
       </nav>
     </header>
   );

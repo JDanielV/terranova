@@ -7,9 +7,9 @@
   right: 0;
   top: 0;
   height: 100vh;
-  width: 75%;
-  z-index: 11;
-  display: none;
+  width: 70%;
+  z-index: 12;
+  transition: transform 0.2s ease-out;
 
   &__layout-wrapper {
     padding: 1rem 1.5rem 1rem 1.5rem;
@@ -45,4 +45,32 @@
     font-size: 1.3rem;
     text-align: end;
   }
+}
+
+.sidebarClosed {
+  transform: translateX(100%);
+}
+
+.sidebarOpen {
+  transform: translateX(0);
+}
+
+.mobile-nav-bg {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  background-color: black;
+  z-index: 11;
+  transition: opacity 0.2s;
+}
+
+.bg-no-show {
+  display: none;
+  opacity: 0;
+}
+
+.bg-show {
+  display: block;
+  opacity: 0.75;
 }
