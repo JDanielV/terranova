@@ -44,6 +44,7 @@
     font-family: "Circular Std Bold";
     font-size: 1.3rem;
     text-align: end;
+    text-decoration: none;
   }
 }
 
@@ -62,12 +63,12 @@
   top: 0;
   background-color: black;
   z-index: 11;
-  transition: opacity 0.2s;
+  transition: opacity 0.2s ease-in;
+  opacity: 0;
 }
 
 .bg-no-show {
   display: none;
-  opacity: 0;
 }
 
 .bg-show {

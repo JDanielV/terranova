@@ -1,13 +1,27 @@
 import React, { useState } from "react";
 import MobileNav from "./MobileNav";
 import MobileNavBg from "./MobileNavBg";
+import NavLink from "./NavLink";
 
-const Header = () => {
-  const [sidebarOpen, setSidebarOpen] = useState(false);
-
-  const sidebarClick = () => {
-    setSidebarOpen(!sidebarOpen);
-  };
+const Header = (props) => {
+  const [navLinks] = useState({
+    firstNavLink: "About Us",
+    firstLinkId: "home-about",
+    secondNavLink: "Products",
+    secondLinkId: "products",
+    thirdNavLink: "Services",
+    thirdLinkId: "services",
+    fourthNavLink: "Contact Us",
+    fourthLinkId: "contact",
+  });
+  const firstNavLink = navLinks.firstNavLink;
+  const firstLinkId = navLinks.firstLinkId;
+  const secondNavLink = navLinks.secondNavLink;
+  const secondLinkId = navLinks.secondLinkId;
+  const thirdNavLink = navLinks.thirdNavLink;
+  const thirdLinkId = navLinks.thirdLinkId;
+  const fourthNavLink = navLinks.fourthNavLink;
+  const fourthLinkId = navLinks.fourthLinkId;
 
   return (
     <header className="header">
@@ -25,23 +39,34 @@ const Header = () => {
             className="header__nav-hamburger"
             src="./assets/icons/hamburger-icon.png"
             alt="display nav button"
-            onClick={sidebarClick}
+            onClick={props.sidebarClick}
           />
         </div>
         <div className="header__nav-links">
           <ul className="header__ul">
-            <li className="header__li">About Us</li>
-            <li className="header__li">Products</li>
-            <li className="header__li">Services</li>
-            <li className="header__li">Contact</li>
+            <NavLink navLinkName={firstNavLink} navLinkId={firstLinkId} />
+            <NavLink navLinkName={secondNavLink} navLinkId={secondLinkId} />
+            <NavLink navLinkName={thirdNavLink} navLinkId={thirdLinkId} />
+            <NavLink navLinkName={fourthNavLink} navLinkId={fourthLinkId} />
           </ul>
           <div className="header__language-wrapper">
             <span className="header__language">EN</span>
             <span className="header__language">ES</span>
           </div>
         </div>
-        <MobileNav sidebarOpen={sidebarOpen} sidebarClose={sidebarClick} />
-        <MobileNavBg sidebarOpen={sidebarOpen} />
+        <MobileNav
+          sidebarOpen={props.sidebarOpen}
+          sidebarClose={props.sidebarClick}
+          firstNavLink={firstNavLink}
+          firstLinkId={firstLinkId}
+          secondNavLink={secondNavLink}
+          secondLinkId={secondLinkId}
+          thirdNavLink={thirdNavLink}
+          thirdLinkId={thirdLinkId}
+          fourthNavLink={fourthNavLink}
+          fourthLinkId={fourthLinkId}
+        />
+        <MobileNavBg sidebarOpen={props.sidebarOpen} />
       </nav>
     </header>
   );

@@ -18,3 +18,9 @@ body {
 html {
   max-width: 100vw;
 }
+
+.noScroll {
+  height: 100vh;
+  overflow: hidden;
+  // position: fixed;
+}

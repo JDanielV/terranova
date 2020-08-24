@@ -2,7 +2,7 @@ import React from "react";
 
 const Products = () => {
   return (
-    <section className="products">
+    <section className="products" id="products">
       <div className="products__content-wrapper">
         <h3 className="products__title">
           We proudly represent companies in the food industry, each one a leader

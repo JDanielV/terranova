@@ -1144,6 +1144,7 @@
   font-family: "Circular Std Bold";
   font-size: 1.3rem;
   text-align: end;
+  text-decoration: none;
 }
 
 .sidebarClosed {
@@ -1163,13 +1164,13 @@
   top: 0;
   background-color: black;
   z-index: 11;
-  -webkit-transition: opacity 0.2s;
-  transition: opacity 0.2s;
+  -webkit-transition: opacity 0.2s ease-in;
+  transition: opacity 0.2s ease-in;
+  opacity: 0;
 }
 
 .bg-no-show {
   display: none;
-  opacity: 0;
 }
 
 .bg-show {
@@ -1186,5 +1187,10 @@ body {
 
 html {
   max-width: 100vw;
+}
+
+.noScroll {
+  height: 100vh;
+  overflow: hidden;
 }
 /*# sourceMappingURL=main.css.map */

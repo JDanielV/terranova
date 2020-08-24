@@ -3,7 +3,7 @@ import React from "react";
 const HomeAbout = () => {
   return (
     // HOME HTML STARTS HERE
-    <section className="home-about">
+    <section className="home-about" id="home-about">
       <div className="home-about__home-title-container">
         <h1 className="home-about__home-title">
           Manufacturers' Representative
