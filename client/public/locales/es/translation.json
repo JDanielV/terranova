@@ -1,0 +1,89 @@
+{
+  "heroHeader": {
+    "1": "Representante de empresas"
+  },
+  "aboutTitle": {
+    "1": "Acerca de nosotros"
+  },
+  "aboutSubtitle": {
+    "1": "Soluciones a la Medida y Valor para el Largo Plazo"
+  },
+  "aboutParagraph1": {
+    "1": "Quienes nos conocen, describen nuestra empresa como: experiencia en ventas internacionales y relaciones personales positivas."
+  },
+  "aboutParagraph2": {
+    "1": "Hemos estado operando desde el 2013, y nuestro equipo tiene más de 25 años de experiencia en ventas a nivel comercial e industrial en Canadá, los Estados Unidos y México."
+  },
+  "aboutParagraph3": {
+    "1": "Nuestra especialidad es convertir oportunidades comerciales en relaciones de negocio, con visión de largo plazo."
+  },
+  "productsSubtitle": {
+    "1": "Orgullosamente representamos a empresas en la industria de los alimentos, cada una un líder en su sector"
+  },
+  "productsDescription1": {
+    "1": "Empaques hechos a la medida para frutas y hortalizas, pastelería, repostería y alimentos procesados"
+  },
+  "productsDescription2": {
+    "1": "Productos de atún congelados en presentaciones institucional y menudeo"
+  },
+  "productsDescription3": {
+    "1": "Productos de aguacate congelados en presentaciones institucional y menudeo"
+  },
+  "productsDescription4": {
+    "1": "Vegetales enlatados en presentación institucional"
+  },
+  "servicesTitle": {
+    "1": "Nuestros servicios"
+  },
+  "servicesSubtitle": {
+    "1": "Hechos a la medida"
+  },
+  "servicesParagraph": {
+    "1": "Nuestra especialidad es trabajar juntos para encontrar oportunidades y dar soluciones para cumplir o superar expectativas del cliente."
+  },
+  "servicesService1Subtitle": {
+    "1": "Consultoría en ventas y comercio internacional"
+  },
+  "servicesService1Paragraph": {
+    "1": "Te asesoramos para enfocar tus productos al mercado ideal."
+  },
+  "servicesService2Subtitle": {
+    "1": "Logística: fletes, importaciones y almacenaje"
+  },
+  "servicesService2Paragraph": {
+    "1": "Te ofrecemos servicios de flete, importación a Canadá y almacenamiento."
+  },
+  "contactTitle": {
+    "1": "Contáctanos"
+  },
+  "contactOffice": {
+    "1": "Oficina:"
+  },
+  "contactMailing": {
+    "1": "Correspondencia:"
+  },
+  "contactName": {
+    "1": "Nombre*"
+  },
+  "contactEmail": {
+    "1": "Email*"
+  },
+  "contactMessage": {
+    "1": "Mensaje"
+  },
+  "contactSendMessage": {
+    "1": "Enviar Mensaje"
+  },
+  "navAboutUs": {
+    "1": "Acerca de nosotros"
+  },
+  "navProducts": {
+    "1": "Productos"
+  },
+  "navServices": {
+    "1": "Servicios"
+  },
+  "navContact": {
+    "1": "Contacto"
+  }
+}

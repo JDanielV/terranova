@@ -6,13 +6,19 @@ import Services from "./components/Services";
 import MobileFooter from "./components/MobileFooter";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import { useTranslation } from "react-i18next";
 import "./styles/main.css";
 
 function App() {
   const [sidebarOpen, setSidebarOpen] = useState(false);
+  const { i18n } = useTranslation();
 
   const sidebarClick = () => {
     setSidebarOpen(!sidebarOpen);
+  };
+
+  const languageClick = (lang) => {
+    i18n.changeLanguage(lang);
   };
 
   return (
@@ -21,7 +27,7 @@ function App() {
       <HomeAbout />
       <Products />
       <Services />
-      <MobileFooter />
+      <MobileFooter languageClick={languageClick} />
       <Contact />
       <Footer />
     </div>

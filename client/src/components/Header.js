@@ -2,8 +2,11 @@ import React, { useState } from "react";
 import MobileNav from "./MobileNav";
 import MobileNavBg from "./MobileNavBg";
 import NavLink from "./NavLink";
+import { useTranslation } from "react-i18next";
 
 const Header = (props) => {
+  const { t } = useTranslation();
+
   const [navLinks] = useState({
     firstNavLink: "About Us",
     firstLinkId: "home-about",

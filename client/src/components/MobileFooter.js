@@ -1,6 +1,6 @@
 import React from "react";
 
-const MobileFooter = () => {
+const MobileFooter = ({ languageClick }) => {
   return (
     <footer className="mobile-footer">
       <div className="mobile-footer__wrapper">
@@ -10,8 +10,18 @@ const MobileFooter = () => {
           </span>
         </div>
         <div className="mobile-footer__right-divider">
-          <span className="mobile-footer__language">ES</span>
-          <span className="mobile-footer__language">EN</span>
+          <span
+            className="mobile-footer__language"
+            onClick={() => languageClick("es")}
+          >
+            ES
+          </span>
+          <span
+            className="mobile-footer__language"
+            onClick={() => languageClick("en")}
+          >
+            EN
+          </span>
         </div>
       </div>
     </footer>

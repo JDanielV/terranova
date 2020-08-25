@@ -1,13 +1,14 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 const HomeAbout = () => {
+  const { t } = useTranslation();
+
   return (
     // HOME HTML STARTS HERE
     <section className="home-about" id="home-about">
       <div className="home-about__home-title-container">
-        <h1 className="home-about__home-title">
-          Manufacturers' Representative
-        </h1>
+        <h1 className="home-about__home-title">{t("heroHeader.1")}</h1>
       </div>
       <div className="home-about__pic-cluster">
         <div className="home-about__pic1-container">
@@ -42,25 +43,19 @@ const HomeAbout = () => {
       <div className="home-about__about-container">
         <div className="home-about__about-circular-pic2-container"></div>
         <div className="home-about__about-text">
-          <h2 className="home-about__about-title">About Us</h2>
-          <h3 className="home-about__about-subtitle">
-            Custom Solutions and Value for the Long Term
-          </h3>
+          <h2 className="home-about__about-title">{t("aboutTitle.1")}</h2>
+          <h3 className="home-about__about-subtitle">{t("aboutSubtitle.1")}</h3>
           <div className="home-about__about-descr-wrapper">
             <div className="home-about__about-descr-indent" />
             <div className="home-about__about-paragraph-wrapper">
               <p className="home-about__about-paragraph">
-                Those who know us, describe our company as: international sales
-                experience and positive relationships.
+                {t("aboutParagraph1.1")}
               </p>
               <p className="home-about__about-paragraph">
-                We have been in business since 2013, and our team has more than
-                25 years of experience in Business to Business sales in Canada,
-                the U.S. and Mexico.
+                {t("aboutParagraph2.1")}
               </p>
               <p className="home-about__about-paragraph">
-                Our specialty is turning business opportunities into business
-                relationships, with a long-term vision.
+                {t("aboutParagraph3.1")}
               </p>
             </div>
           </div>

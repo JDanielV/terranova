@@ -1,13 +1,13 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 const Products = () => {
+  const { t } = useTranslation();
+
   return (
     <section className="products" id="products">
       <div className="products__content-wrapper">
-        <h3 className="products__title">
-          We proudly represent companies in the food industry, each one a leader
-          in its sector
-        </h3>
+        <h3 className="products__title">{t("productsSubtitle.1")}</h3>
         <div className="products__products-wrapper">
           <div className="products__product-wrapper">
             <div className="products__product-category-img-container">
@@ -18,7 +18,7 @@ const Products = () => {
               />
             </div>
             <p className="products__product-category-descr">
-              Customized packaging for produce, bakery and processed foods
+              {t("productsDescription1.1")}
             </p>
           </div>
           <div className="products__product-wrapper">
@@ -30,7 +30,7 @@ const Products = () => {
               />
             </div>
             <p className="products__product-category-descr">
-              Frozen tuna products for foodservice and retail
+              {t("productsDescription2.1")}
             </p>
           </div>
           <div className="products__product-wrapper">
@@ -42,7 +42,7 @@ const Products = () => {
               />
             </div>
             <p className="products__product-category-descr">
-              Frozen avocado products for foodservice and retail
+              {t("productsDescription3.1")}
             </p>
           </div>
           <div className="products__product-wrapper">
@@ -54,7 +54,7 @@ const Products = () => {
               />
             </div>
             <p className="products__product-category-descr">
-              Canned vegetables for foodservice
+              {t("productsDescription4.1")}
             </p>
           </div>
         </div>

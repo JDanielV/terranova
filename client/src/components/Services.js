@@ -1,17 +1,17 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 const Services = () => {
+  const { t } = useTranslation();
+
   return (
     <section className="services" id="services">
       <div className="services__text-wrapper1">
-        <h2 className="services__title">Services</h2>
-        <h3 className="services__subtitle">Custom Made</h3>
+        <h2 className="services__title">{t("servicesTitle.1")}</h2>
+        <h3 className="services__subtitle">{t("servicesSubtitle.1")}</h3>
         <div className="services__paragraph-wrapper">
           <div className="services__indent" />
-          <p className="services__paragraph">
-            Our specialty is working together to find opportunities and provide
-            solutions to meet or exceed customer expectations.
-          </p>
+          <p className="services__paragraph">{t("servicesParagraph.1")}</p>
         </div>
       </div>
       <img
@@ -48,10 +48,10 @@ const Services = () => {
         </div>
         <div className="services__cluster1-text-wrapper">
           <h3 className="services__cluster1-subtitle">
-            Sales and international trade consulting
+            {t("servicesService1Subtitle.1")}
           </h3>
           <p className="services__cluster1-paragraph">
-            We can help you find the right market for your products.
+            {t("servicesService1Paragraph.1")}
           </p>
         </div>
       </div>
@@ -79,10 +79,10 @@ const Services = () => {
         </div>
         <div className="services__cluster1-text-wrapper">
           <h3 className="services__cluster1-subtitle">
-            Logistics: freight, importing, warehousing
+            {t("servicesService2Subtitle.1")}
           </h3>
           <p className="services__cluster1-paragraph">
-            We offer freight, importing into Canada and warehousing services.
+            {t("servicesService2Paragraph.1")}
           </p>
         </div>
       </div>
