@@ -8,15 +8,17 @@ const Header = (props) => {
   const { t } = useTranslation();
 
   const [navLinks] = useState({
-    firstNavLink: "About Us",
+    firstNavLink: t("navAboutUs.1"),
     firstLinkId: "home-about",
-    secondNavLink: "Products",
+    secondNavLink: t("navProducts.1"),
     secondLinkId: "products",
-    thirdNavLink: "Services",
+    thirdNavLink: t("navServices.1"),
     thirdLinkId: "services",
-    fourthNavLink: "Contact Us",
+    fourthNavLink: t("navContact.1"),
     fourthLinkId: "contact",
+    currentLanguage: props.currentLang,
   });
+
   const firstNavLink = navLinks.firstNavLink;
   const firstLinkId = navLinks.firstLinkId;
   const secondNavLink = navLinks.secondNavLink;
@@ -29,7 +31,7 @@ const Header = (props) => {
   return (
     <header className="header">
       <nav className="header__nav">
-        <span className="header__phone">Tel/Fax +1 (604) 669-3355</span>
+        <span className="header__phone">Tel/Fax +1 (236) 866-4475</span>
         <div className="header__logo-wrapper">
           <img
             className="header__logo"

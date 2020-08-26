@@ -745,6 +745,12 @@
   justify-self: flex-end;
 }
 
+.mobile-footer__active-lang {
+  color: #fc6414;
+  border-bottom: 1px solid #fc6414;
+  height: 1.08rem;
+}
+
 @font-face {
   font-family: "Circular Std Black";
   src: url(/assets/fonts/CircularStd-Black.otf);
