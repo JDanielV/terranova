@@ -30,21 +30,25 @@ const MobileNav = (props) => {
               navLinkName={props.firstNavLink}
               navLinkId={props.firstLinkId}
               sidebarClose={props.sidebarClose}
+              currentLang={props.currentLang}
             />
             <MobileNavLink
               navLinkName={props.secondNavLink}
               navLinkId={props.secondLinkId}
               sidebarClose={props.sidebarClose}
+              currentLang={props.currentLang}
             />
             <MobileNavLink
               navLinkName={props.thirdNavLink}
               navLinkId={props.thirdLinkId}
               sidebarClose={props.sidebarClose}
+              currentLang={props.currentLang}
             />
             <MobileNavLink
               navLinkName={props.fourthNavLink}
               navLinkId={props.fourthLinkId}
               sidebarClose={props.sidebarClose}
+              currentLang={props.currentLang}
             />
           </ul>
         </div>

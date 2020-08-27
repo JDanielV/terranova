@@ -7,7 +7,7 @@ import { useTranslation } from "react-i18next";
 const Header = (props) => {
   const { t } = useTranslation();
 
-  const [navLinks] = useState({
+  const [navLinks, setNavLinks] = useState({
     firstNavLink: t("navAboutUs.1"),
     firstLinkId: "home-about",
     secondNavLink: t("navProducts.1"),
@@ -16,8 +16,22 @@ const Header = (props) => {
     thirdLinkId: "services",
     fourthNavLink: t("navContact.1"),
     fourthLinkId: "contact",
-    currentLanguage: props.currentLang,
+    currentLang: props.currentLang,
   });
+
+  if (navLinks.currentLang !== props.currentLang) {
+    setNavLinks({
+      firstNavLink: t("navAboutUs.1"),
+      firstLinkId: "home-about",
+      secondNavLink: t("navProducts.1"),
+      secondLinkId: "products",
+      thirdNavLink: t("navServices.1"),
+      thirdLinkId: "services",
+      fourthNavLink: t("navContact.1"),
+      fourthLinkId: "contact",
+      currentLang: props.currentLang,
+    });
+  }
 
   const firstNavLink = navLinks.firstNavLink;
   const firstLinkId = navLinks.firstLinkId;
@@ -70,6 +84,7 @@ const Header = (props) => {
           thirdLinkId={thirdLinkId}
           fourthNavLink={fourthNavLink}
           fourthLinkId={fourthLinkId}
+          currentLang={props.currentLang}
         />
         <MobileNavBg sidebarOpen={props.sidebarOpen} />
       </nav>
