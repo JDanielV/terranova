@@ -63,10 +63,8 @@
   }
 
   &__map {
-    background-color: black;
-    height: 100%;
-    width: 100%;
-    border-radius: 180px;
+    height: 104%;
+    width: 104%;
     position: absolute;
     top: 0;
     left: 0;
@@ -77,6 +75,8 @@
       width: 100%;
       padding-top: 100%;
       position: relative;
+      overflow: hidden;
+      border-radius: 180px;
     }
   }
 

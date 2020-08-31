@@ -15,7 +15,7 @@ const MobileNavLink = ({
 
   useEffect(() => {
     setNavLinkNameLang(navLinkName);
-  }, [currentLang]);
+  }, [currentLang, navLinkName]);
 
   const handleClick = (event) => {
     event.preventDefault();

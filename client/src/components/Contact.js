@@ -1,4 +1,5 @@
 import React from "react";
+import ContactMap from "./ContactMap";
 import { useTranslation } from "react-i18next";
 
 const Contact = () => {
@@ -33,9 +34,7 @@ const Contact = () => {
           </div>
         </div>
         <div className="contact__map-form-wrapper">
-          <div className="contact__map-container">
-            <div className="contact__map" />
-          </div>
+          <ContactMap />
           <div className="contact__form-wrapper">
             <form className="contact__form">
               <input
