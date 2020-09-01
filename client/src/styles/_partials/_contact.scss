@@ -71,6 +71,23 @@
     bottom: 0;
     right: 0;
 
+    &-label {
+      color: #e73f36;
+      font-size: 0.9rem;
+      font-weight: 500;
+      text-shadow: 0 0 1px white, 0 0 1px white, 0 0 1px white, 0 0 1px white;
+
+      &-container {
+        background-color: rgba(255, 255, 255, 0.7);
+        border-radius: 8px;
+        width: 7.2rem;
+        height: 1.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+
     &-container {
       width: 100%;
       padding-top: 100%;

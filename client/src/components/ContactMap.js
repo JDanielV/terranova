@@ -3,7 +3,7 @@ import {
   GoogleMap,
   useLoadScript,
   Marker,
-  InfoWindow,
+  OverlayView,
 } from "@react-google-maps/api";
 
 const mapContainerStyle = {
@@ -37,6 +37,18 @@ const ContactMap = () => {
           options={options}
         >
           <Marker position={center} />
+          <OverlayView
+            position={center}
+            mapPaneName={OverlayView.OVERLAY_MOUSE_TARGET}
+            getPixelPositionOffset={(x, y) => ({
+              x: 14,
+              y: -35,
+            })}
+          >
+            <div className="contact__map-label-container">
+              <span className="contact__map-label">Terranova Sales</span>
+            </div>
+          </OverlayView>
         </GoogleMap>
       </div>
     </div>
