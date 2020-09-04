@@ -1,11 +1,11 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import MobileNav from "./MobileNav";
 import MobileNavBg from "./MobileNavBg";
 import NavLink from "./NavLink";
 import { useTranslation } from "react-i18next";
 
 const Header = (props) => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
 
   const [navLinks, setNavLinks] = useState({
     firstNavLink: t("navAboutUs.1"),
@@ -19,7 +19,11 @@ const Header = (props) => {
     currentLang: props.currentLang,
   });
 
-  if (navLinks.currentLang !== props.currentLang) {
+  const [activeLang, setActiveLang] = useState(i18n.language);
+
+  if (activeLang !== i18n.language) setActiveLang(i18n.language);
+
+  useEffect(() => {
     setNavLinks({
       firstNavLink: t("navAboutUs.1"),
       firstLinkId: "home-about",
@@ -29,9 +33,8 @@ const Header = (props) => {
       thirdLinkId: "services",
       fourthNavLink: t("navContact.1"),
       fourthLinkId: "contact",
-      currentLang: props.currentLang,
     });
-  }
+  }, [activeLang, t]);
 
   const firstNavLink = navLinks.firstNavLink;
   const firstLinkId = navLinks.firstLinkId;
