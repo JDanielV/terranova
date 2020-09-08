@@ -16,7 +16,6 @@ const Header = (props) => {
     thirdLinkId: "services",
     fourthNavLink: t("navContact.1"),
     fourthLinkId: "contact",
-    currentLang: props.currentLang,
   });
 
   const [activeLang, setActiveLang] = useState(i18n.language);
