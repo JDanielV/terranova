@@ -7,9 +7,11 @@ const MobileNav = (props) => {
 
   if (!props.sidebarOpen) {
     styleClasses.push("sidebarClosed");
+    document.ontouchmove = (e) => true;
     enableBodyScroll();
   } else {
     styleClasses.push("sidebarOpen");
+    document.ontouchmove = (e) => e.preventDefault();
     disableBodyScroll();
   }
 

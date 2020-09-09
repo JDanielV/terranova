@@ -1,5 +1,6 @@
 import React from "react";
 import ContactMap from "./ContactMap";
+import ContactForm from "./ContactForm";
 import { useTranslation } from "react-i18next";
 
 const Contact = () => {
@@ -35,31 +36,7 @@ const Contact = () => {
         </div>
         <div className="contact__map-form-wrapper">
           <ContactMap />
-          <div className="contact__form-wrapper">
-            <form className="contact__form">
-              <input
-                className="contact__form-input"
-                type="text"
-                name="name"
-                placeholder={`${t("contactName.1")}`}
-              />
-              <input
-                className="contact__form-input"
-                type="email"
-                name="email"
-                placeholder={`${t("contactEmail.1")}`}
-              />
-              <textarea
-                className="contact__form-textarea"
-                type="text"
-                name="message"
-                placeholder={`${t("contactMessage.1")}`}
-              />
-              <button className="contact__form-btn" type="submit">
-                {t("contactSendMessage.1")}
-              </button>
-            </form>
-          </div>
+          <ContactForm />
         </div>
       </div>
     </section>
