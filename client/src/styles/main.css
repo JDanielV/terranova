@@ -86,6 +86,10 @@
   height: 20px;
 }
 
+.header__nav-hamburger:hover {
+  cursor: pointer;
+}
+
 .header__nav-hamburger-wrapper {
   position: absolute;
   right: 1.3rem;
@@ -1139,6 +1143,10 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.mobile-nav__close:hover {
+  cursor: pointer;
 }
 
 .mobile-nav__close-wrapper {

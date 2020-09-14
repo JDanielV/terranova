@@ -35,6 +35,9 @@
   &__nav-hamburger {
     width: 25px;
     height: 20px;
+    &:hover {
+      cursor: pointer;
+    }
 
     &-wrapper {
       position: absolute;

@@ -19,6 +19,12 @@
     justify-content: space-between;
   }
 
+  &__close {
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
   &__close-wrapper {
     align-self: flex-end;
   }
