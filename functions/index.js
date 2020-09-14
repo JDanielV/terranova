@@ -1,13 +1,21 @@
+const functions = require("firebase-functions");
+
+// // Create and Deploy Your First Cloud Functions
+// // https://firebase.google.com/docs/functions/write-firebase-functions
+//
+// exports.helloWorld = functions.https.onRequest((request, response) => {
+//   functions.logger.info("Hello logs!", {structuredData: true});
+//   response.send("Hello from Firebase!");
+// });
+
 const nodemailer = require("nodemailer");
 const express = require("express");
 const config = require("./config");
-const cors = require("cors");
 
 const app = express();
 
 //Middleware here
-app.use(express.json());
-app.use(cors());
+// app.use(express.json());
 
 const transport = {
   host: "smtp.gmail.com",
@@ -27,7 +35,7 @@ transporter.verify((error, success) => {
   }
 });
 
-app.post("/send", (req, res) => {
+app.post("/api", (req, res) => {
   let name = req.body.name;
   let email = req.body.email;
   let message = req.body.message;
@@ -36,7 +44,7 @@ app.post("/send", (req, res) => {
   let mail = {
     from: name,
     to: "j.danielv@outlook.com",
-    subject: "New Message from Contact Form",
+    subject: "New Message - Terranova Website",
     text: content,
   };
 
@@ -56,3 +64,5 @@ app.post("/send", (req, res) => {
 app.listen(5000, () => {
   console.log("Server is live on port 5000");
 });
+
+exports.api = functions.https.onRequest(app);

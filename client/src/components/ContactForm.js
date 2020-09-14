@@ -23,9 +23,8 @@ const ContactForm = () => {
     if (!name || !email || !message) {
       console.log("Please fill all fields");
     } else {
-      console.log(data);
       axios
-        .post("http://localhost:5000/send", data)
+        .post("/api", data)
         .then((response) => {
           console.log(response);
           resetForm();
@@ -33,7 +32,6 @@ const ContactForm = () => {
         .catch((err) => {
           console.log(err);
         });
-      resetForm();
     }
   };
 
