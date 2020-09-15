@@ -62,6 +62,9 @@
   "contactMailing": {
     "1": "Correspondencia:"
   },
+  "contactRequiredFields": {
+    "1": "(*) Todos los campos son requeridos"
+  },
   "contactName": {
     "1": "Nombre*"
   },
@@ -70,6 +73,15 @@
   },
   "contactMessage": {
     "1": "Mensaje*"
+  },
+  "contactMessageSent": {
+    "1": "Mensaje enviado! Nos pondremos en contacto pronto."
+  },
+  "contactMessageNotSent": {
+    "1": "Disculpa, se produjo un error enviando el mensaje. Por favor intenta de nuevo."
+  },
+  "contactEmptyFields": {
+    "1": "(*) Favor de llenar todos los campos."
   },
   "contactSendMessage": {
     "1": "Enviar Mensaje"

@@ -103,6 +103,25 @@
     justify-content: space-between;
     margin: 3rem 0 3rem 0;
 
+    &-required-fields {
+      margin: 0 0 0.4rem 1rem;
+      color: $terranova-gray;
+      font-family: "Circular Std Book Italic";
+      font-size: 0.9rem;
+    }
+
+    &-message-sent {
+      margin-top: 0;
+      color: $terranova-gray;
+      margin-left: 0.5rem;
+    }
+
+    &-message-not-sent {
+      color: $terranova-gray;
+      margin-top: 0;
+      margin-left: 0.5rem;
+    }
+
     &-input {
       height: 3rem;
       border: none;

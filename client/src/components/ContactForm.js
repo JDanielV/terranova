@@ -1,9 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import axios from "axios";
 import { useTranslation } from "react-i18next";
 
 const ContactForm = () => {
   const { t } = useTranslation();
+
+  const [messageSent, setMessageSent] = useState(undefined);
+  const [emptyFields, setEmptyFields] = useState(undefined);
 
   const resetForm = () => {
     document.getElementById("contact-form").reset();
@@ -21,16 +24,19 @@ const ContactForm = () => {
     };
 
     if (!name || !email || !message) {
-      console.log("Please fill all fields");
+      setEmptyFields(true);
     } else {
+      setEmptyFields(false);
       axios
         .post("/api", data)
         .then((response) => {
           console.log(response);
+          setMessageSent(true);
           resetForm();
         })
         .catch((err) => {
           console.log(err);
+          setMessageSent(false);
         });
     }
   };
@@ -38,6 +44,9 @@ const ContactForm = () => {
   return (
     <div className="contact__form-wrapper">
       <form className="contact__form" onSubmit={handleSubmit} id="contact-form">
+        <p className="contact__form-required-fields">
+          {t("contactRequiredFields.1")}
+        </p>
         <input
           className="contact__form-input"
           type="text"
@@ -56,6 +65,20 @@ const ContactForm = () => {
           name="message"
           placeholder={`${t("contactMessage.1")}`}
         />
+        {messageSent ? (
+          <p className="contact__form-message-sent">
+            {t("contactMessageSent.1")}
+          </p>
+        ) : (
+          <div></div>
+        )}
+        {emptyFields ? (
+          <p className="contact__form-message-sent">
+            {t("contactEmptyFields.1")}
+          </p>
+        ) : (
+          <div></div>
+        )}
         <button className="contact__form-btn" type="submit">
           {t("contactSendMessage.1")}
         </button>

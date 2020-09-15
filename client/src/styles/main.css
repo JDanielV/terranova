@@ -918,6 +918,25 @@
   margin: 3rem 0 3rem 0;
 }
 
+.contact__form-required-fields {
+  margin: 0 0 0.4rem 1rem;
+  color: #686868;
+  font-family: "Circular Std Book Italic";
+  font-size: 0.9rem;
+}
+
+.contact__form-message-sent {
+  margin-top: 0;
+  color: #686868;
+  margin-left: 0.5rem;
+}
+
+.contact__form-message-not-sent {
+  color: #686868;
+  margin-top: 0;
+  margin-left: 0.5rem;
+}
+
 .contact__form-input {
   height: 3rem;
   border: none;
