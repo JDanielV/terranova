@@ -379,6 +379,119 @@
   font-size: 1rem;
 }
 
+.products__slider {
+  height: 100vh;
+  width: 100%;
+  background: white;
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  top: 0;
+  left: 0;
+  margin: auto auto;
+  z-index: 12;
+}
+
+.products__slider-slide {
+  height: auto;
+  width: 80%;
+  border-radius: 5px;
+}
+
+.products__slider-slide-container {
+  min-width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.products__slider-content {
+  -webkit-transform: translateX();
+          transform: translateX();
+  -webkit-transition: -webkit-transform ease-out 0.5s;
+  transition: -webkit-transform ease-out 0.5s;
+  transition: transform ease-out 0.5s;
+  transition: transform ease-out 0.5s, -webkit-transform ease-out 0.5s;
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: white;
+  margin: auto auto;
+  border: 1px solid orange;
+}
+
+.products__slider-content-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid blue;
+  width: 100%;
+}
+
+.products__slider-close-btn {
+  background: url("/assets/icons/close-icon.png");
+  width: auto;
+  height: 2rem;
+  z-index: 13;
+}
+
+.products__slider-close-btn:hover {
+  cursor: pointer;
+}
+
+.clamshellSlider-open {
+  display: block;
+}
+
+.clamshellSlider-closed {
+  display: none;
+}
+
+.tunaSlider-open {
+  display: block;
+}
+
+.tunaSlider-closed {
+  display: none;
+}
+
+.avocadoSlider-open {
+  display: block;
+}
+
+.avocadoSlider-closed {
+  display: none;
+}
+
+.veggiesSlider-open {
+  display: block;
+}
+
+.veggiesSlider-closed {
+  display: none;
+}
+
 @font-face {
   font-family: "Circular Std Black";
   src: url(/assets/fonts/CircularStd-Black.otf);
