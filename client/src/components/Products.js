@@ -36,6 +36,7 @@ const Products = () => {
   const [tunaImages] = useState([
     "./assets/images/product-imgs/tuna1.jpg",
     "./assets/images/product-imgs/tuna2.jpg",
+    "./assets/images/product-imgs/tuna3.jpg",
   ]);
 
   const [avocadoImages] = useState([

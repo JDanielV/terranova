@@ -13,13 +13,15 @@ const Slider = (props) => {
 
   return (
     <div className={sliderClasses.join(" ")}>
-      <div
-        className="products__slider-close-btn"
-        onClick={() => {
-          props.toggleSlider();
-          enableBodyScroll();
-        }}
-      ></div>
+      <div className="products__slider-close-btn-container">
+        <div
+          className="products__slider-close-btn"
+          onClick={() => {
+            props.toggleSlider();
+            enableBodyScroll();
+          }}
+        />
+      </div>
       <SliderContent imageURLs={props.imageURLs} product={props.product} />
     </div>
   );
