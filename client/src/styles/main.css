@@ -432,11 +432,10 @@
   border: 2px solid orange;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  position: relative;
 }
 
 .products__slider-content-wrapper {
-  -webkit-transform: translateX(0px);
-          transform: translateX(0px);
   -webkit-transition: -webkit-transform ease-out 0.5s;
   transition: -webkit-transform ease-out 0.5s;
   transition: transform ease-out 0.5s;
@@ -475,6 +474,22 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.products__slider-button-left {
+  position: absolute;
+  width: 20%;
+  height: 80%;
+  background: none;
+  left: 0;
+}
+
+.products__slider-button-right {
+  position: absolute;
+  width: 20%;
+  height: 80%;
+  background: none;
+  right: 0;
 }
 
 .clamshellSlider-open {

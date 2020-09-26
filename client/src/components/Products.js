@@ -6,6 +6,16 @@ import { disableBodyScroll } from "body-scroll-lock";
 const Products = () => {
   const { t } = useTranslation();
 
+  const getViewportWidth = () => {
+    return window.innerWidth;
+  };
+
+  const [viewportWidth, setViewportWidth] = useState(getViewportWidth());
+
+  const refreshViewportWidth = () => {
+    setViewportWidth(getViewportWidth());
+  };
+
   const [clamshellSliderOpen, setClamshellSliderOpen] = useState(false);
   const [tunaSliderOpen, setTunaSliderOpen] = useState(false);
   const [avocadoSliderOpen, setAvocadoSliderOpen] = useState(false);
@@ -62,11 +72,13 @@ const Products = () => {
               imageURLs={clamshellImages}
               product={"clamshell"}
               toggleSlider={showClamshellSlider}
+              viewportWidth={viewportWidth}
             />
             <div
               className="products__product-category-img-container"
               onClick={() => {
                 showClamshellSlider();
+                refreshViewportWidth();
                 disableBodyScroll();
               }}
             >
@@ -86,11 +98,13 @@ const Products = () => {
               imageURLs={tunaImages}
               product={"tuna"}
               toggleSlider={showTunaSlider}
+              viewportWidth={viewportWidth}
             />
             <div
               className="products__product-category-img-container"
               onClick={() => {
                 showTunaSlider();
+                refreshViewportWidth();
                 disableBodyScroll();
               }}
             >
@@ -110,11 +124,13 @@ const Products = () => {
               imageURLs={avocadoImages}
               product={"avocado"}
               toggleSlider={showAvocadoSlider}
+              viewportWidth={viewportWidth}
             />
             <div
               className="products__product-category-img-container"
               onClick={() => {
                 showAvocadoSlider();
+                refreshViewportWidth();
                 disableBodyScroll();
               }}
             >
@@ -134,11 +150,13 @@ const Products = () => {
               imageURLs={veggieCansImages}
               product={"veggies"}
               toggleSlider={showVeggiesSlider}
+              viewportWidth={viewportWidth}
             />
             <div
               className="products__product-category-img-container"
               onClick={() => {
                 showVeggiesSlider();
+                refreshViewportWidth();
                 disableBodyScroll();
               }}
             >

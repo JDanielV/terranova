@@ -72,7 +72,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        // border: 4px solid green;
+        // border: 2px solid green;
       }
     }
 
@@ -85,16 +85,15 @@
       margin: auto auto;
       border: 2px solid orange;
       box-sizing: border-box;
+      position: relative;
 
       &-wrapper {
-        transform: translateX(0px);
         transition: transform ease-out 0.5s;
         display: flex;
         border: 2px solid blue;
         width: auto;
         height: 80%;
         box-sizing: border-box;
-
         // overflow: hidden;
       }
     }
@@ -116,6 +115,24 @@
         display: flex;
         justify-content: flex-end;
         align-items: center;
+      }
+    }
+
+    &-button {
+      &-left {
+        position: absolute;
+        width: 20%;
+        height: 80%;
+        background: none;
+        left: 0;
+      }
+
+      &-right {
+        position: absolute;
+        width: 20%;
+        height: 80%;
+        background: none;
+        right: 0;
       }
     }
   }

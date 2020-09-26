@@ -22,7 +22,11 @@ const Slider = (props) => {
           }}
         />
       </div>
-      <SliderContent imageURLs={props.imageURLs} product={props.product} />
+      <SliderContent
+        imageURLs={props.imageURLs}
+        product={props.product}
+        viewportWidth={props.viewportWidth}
+      />
     </div>
   );
 };
