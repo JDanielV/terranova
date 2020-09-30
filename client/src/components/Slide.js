@@ -2,7 +2,10 @@ import React from "react";
 
 const Slide = (props) => {
   return (
-    <div className="products__slider-slide-container">
+    <div
+      className="products__slider-slide-container"
+      style={{ transform: `translateX(${props.x}%)` }}
+    >
       <img
         className="products__slider-slide"
         src={props.image}

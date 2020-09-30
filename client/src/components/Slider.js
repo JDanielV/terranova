@@ -27,6 +27,10 @@ const Slider = (props) => {
         product={props.product}
         viewportWidth={props.viewportWidth}
       />
+
+      <div className="products__slider-info-wrapper">
+        <span className="products__slider-info">Use arrows to browse</span>
+      </div>
     </div>
   );
 };

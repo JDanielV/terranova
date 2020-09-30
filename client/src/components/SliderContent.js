@@ -2,26 +2,22 @@ import React, { useState } from "react";
 import Slide from "./Slide";
 
 const SliderContent = (props) => {
-  const [x, setX] = useState(props.viewportWidth);
+  const [x, setX] = useState(100);
 
   const goLeft = () => {
-    setX(x + props.viewportWidth);
+    setX(x + 100);
   };
 
   const goRight = () => {
-    setX(x - props.viewportWidth);
+    setX(x - 100);
   };
 
   return (
     <div className="products__slider-content">
-      <div
-        className="products__slider-content-wrapper"
-        style={{ transform: `translateX(${x}px)` }}
-      >
-        {props.imageURLs.map((image) => (
-          <Slide key={image} image={image} product={props.product} />
-        ))}
-      </div>
+      {props.imageURLs.map((image) => (
+        <Slide key={image} image={image} product={props.product} x={x} />
+      ))}
+
       <button className="products__slider-button-left" onClick={goLeft}>
         Left
       </button>
