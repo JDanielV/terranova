@@ -5,11 +5,11 @@ const SliderContent = (props) => {
   const [x, setX] = useState(100);
 
   const goLeft = () => {
-    setX(x + 100);
+    x === 100 ? setX(-100) : setX(x + 100);
   };
 
   const goRight = () => {
-    setX(x - 100);
+    x === -100 ? setX(100) : setX(x - 100);
   };
 
   return (
