@@ -63,9 +63,8 @@
     z-index: 12;
 
     &-slide {
-      width: 85%;
+      width: 100%;
       height: auto;
-      border-radius: 5px;
       object-fit: cover;
 
       &-container {
@@ -113,19 +112,18 @@
     %btn-styles {
       position: absolute;
       width: 20%;
-      height: 40%;
-
-      top: 23%;
+      height: 13%;
+      top: 37%;
       outline: none;
-      // border: none;
     }
 
     &-button {
       &-left {
         @extend %btn-styles;
+        background: rgb(255, 255, 255);
         background: linear-gradient(
           90deg,
-          rgba(0, 0, 0, 0.6890951276102089) 10%,
+          rgba(255, 255, 255, 0.8607888631090488) 15%,
           rgba(252, 252, 252, 0) 60%
         );
         border: none;
@@ -147,7 +145,7 @@
         background: linear-gradient(
           90deg,
           rgba(252, 252, 252, 0) 40%,
-          rgba(0, 0, 0, 0.6890951276102089) 90%
+          rgba(255, 255, 255, 0.8607888631090488) 85%
         );
         border: none;
         right: 0;
@@ -159,6 +157,7 @@
           background-size: cover;
           width: 35px;
           height: 35px;
+          margin: 0 0 0 1.5rem;
         }
       }
     }

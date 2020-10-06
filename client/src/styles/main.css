@@ -400,9 +400,8 @@
 }
 
 .products__slider-slide {
-  width: 85%;
+  width: 100%;
   height: auto;
-  border-radius: 5px;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -471,14 +470,15 @@
 .products__slider .products__slider-button-left, .products__slider .products__slider-button-right {
   position: absolute;
   width: 20%;
-  height: 40%;
-  top: 23%;
+  height: 13%;
+  top: 37%;
   outline: none;
 }
 
 .products__slider-button-left {
-  background: -webkit-gradient(linear, left top, right top, color-stop(10%, rgba(0, 0, 0, 0.689095)), color-stop(60%, rgba(252, 252, 252, 0)));
-  background: linear-gradient(90deg, rgba(0, 0, 0, 0.689095) 10%, rgba(252, 252, 252, 0) 60%);
+  background: white;
+  background: -webkit-gradient(linear, left top, right top, color-stop(15%, rgba(255, 255, 255, 0.860789)), color-stop(60%, rgba(252, 252, 252, 0)));
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.860789) 15%, rgba(252, 252, 252, 0) 60%);
   border: none;
   left: 0;
 }
@@ -494,8 +494,8 @@
 
 .products__slider-button-right {
   background: #fcfcfc;
-  background: -webkit-gradient(linear, left top, right top, color-stop(40%, rgba(252, 252, 252, 0)), color-stop(90%, rgba(0, 0, 0, 0.689095)));
-  background: linear-gradient(90deg, rgba(252, 252, 252, 0) 40%, rgba(0, 0, 0, 0.689095) 90%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(40%, rgba(252, 252, 252, 0)), color-stop(85%, rgba(255, 255, 255, 0.860789)));
+  background: linear-gradient(90deg, rgba(252, 252, 252, 0) 40%, rgba(255, 255, 255, 0.860789) 85%);
   border: none;
   right: 0;
 }
@@ -507,6 +507,7 @@
   background-size: cover;
   width: 35px;
   height: 35px;
+  margin: 0 0 0 1.5rem;
 }
 
 .products__slider-info-wrapper {
