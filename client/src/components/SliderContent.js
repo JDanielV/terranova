@@ -19,10 +19,10 @@ const SliderContent = (props) => {
       ))}
 
       <button className="products__slider-button-left" onClick={goLeft}>
-        Left
+        <div className="products__slider-button-left-icon" />
       </button>
       <button className="products__slider-button-right" onClick={goRight}>
-        Right
+        <div className="products__slider-button-right-icon" />
       </button>
     </div>
   );
