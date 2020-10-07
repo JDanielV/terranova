@@ -48,13 +48,15 @@ const Header = (props) => {
     <header className="header">
       <nav className="header__nav">
         <span className="header__phone">Tel/Fax +1 (236) 866-4475</span>
-        <div className="header__logo-wrapper">
-          <img
-            className="header__logo"
-            src="./assets/logo/terranova_logo.svg"
-            alt="terranova sales logo"
-          />
-        </div>
+        <a href="#home-about">
+          <div className="header__logo-wrapper">
+            <img
+              className="header__logo"
+              src="./assets/logo/terranova_logo.svg"
+              alt="terranova sales logo"
+            />
+          </div>
+        </a>
         <div className="header__nav-hamburger-wrapper">
           <img
             className="header__nav-hamburger"
