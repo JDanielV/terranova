@@ -10,7 +10,11 @@
     display: flex;
     height: 70vh;
     max-height: 32rem;
+    max-width: 40.125rem;
     position: relative;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   &__pic1 {
@@ -18,6 +22,7 @@
 
     &-container {
       width: 50%;
+
       height: auto;
       overflow: hidden;
     }
@@ -50,13 +55,16 @@
 
   &__circular-pic1-container {
     position: absolute;
-    width: 70%;
+    width: 16.531rem;
     max-width: 16.531rem;
-    height: 58%;
+    height: 16.531rem;
     max-height: 16.531rem;
-    left: 29%;
-    margin-left: -50px;
+    margin-left: auto;
+    margin-right: auto;
     top: 20%;
+    left: 0;
+    right: 0;
+    text-align: center;
   }
 
   &__circular-pic1 {
