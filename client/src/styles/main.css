@@ -740,7 +740,7 @@
 }
 
 .services__cluster1-text-wrapper {
-  width: 80%;
+  width: 87%;
   margin: 1rem auto 3rem auto;
   font-size: 1.2rem;
 }
@@ -981,10 +981,11 @@
 }
 
 .contact__title {
-  width: 10.625rem;
+  width: 12rem;
   margin: 0 auto 2rem auto;
   font-family: "Circular Std Black";
   font-size: 2rem;
+  text-align: center;
 }
 
 .contact__img-text-wrapper {

@@ -50,9 +50,6 @@ const Services = () => {
           <h3 className="services__cluster1-subtitle">
             {t("servicesService1Subtitle.1")}
           </h3>
-          <p className="services__cluster1-paragraph">
-            {t("servicesService1Paragraph.1")}
-          </p>
         </div>
       </div>
 
@@ -81,9 +78,6 @@ const Services = () => {
           <h3 className="services__cluster1-subtitle">
             {t("servicesService2Subtitle.1")}
           </h3>
-          <p className="services__cluster1-paragraph">
-            {t("servicesService2Paragraph.1")}
-          </p>
         </div>
       </div>
     </section>

@@ -9,10 +9,11 @@
   padding: 0 1rem 3rem 1rem;
 
   &__title {
-    width: 10.625rem;
+    width: 12rem;
     margin: 0 auto 2rem auto;
     font-family: "Circular Std Black";
     font-size: $subtitle-font-size-mobile;
+    text-align: center;
   }
 
   &__img-text-wrapper {
