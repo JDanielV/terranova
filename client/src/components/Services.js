@@ -9,10 +9,6 @@ const Services = () => {
       <div className="services__text-wrapper1">
         <h2 className="services__title">{t("servicesTitle.1")}</h2>
         <h3 className="services__subtitle">{t("servicesSubtitle.1")}</h3>
-        <div className="services__paragraph-wrapper">
-          <div className="services__indent" />
-          <p className="services__paragraph">{t("servicesParagraph.1")}</p>
-        </div>
       </div>
       <img
         className="services__hero-img"
