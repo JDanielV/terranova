@@ -6,6 +6,7 @@ const Services = () => {
 
   return (
     <section className="services" id="services">
+      <div className="services__content-wrapper">
       <div className="services__text-wrapper1">
         <h2 className="services__title">{t("servicesTitle.1")}</h2>
         <h3 className="services__subtitle">{t("servicesSubtitle.1")}</h3>
@@ -75,6 +76,7 @@ const Services = () => {
             {t("servicesService2Subtitle.1")}
           </h3>
         </div>
+      </div>
       </div>
     </section>
   );

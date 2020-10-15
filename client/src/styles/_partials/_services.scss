@@ -9,6 +9,12 @@
   padding: 0 1rem 1rem 1rem;
   box-sizing: border-box;
 
+  &__content-wrapper {
+    max-width: 48rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   &__text-wrapper1 {
     font-family: "Circular Std Book";
     width: 100%;
