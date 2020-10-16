@@ -45,6 +45,10 @@
     color: $terranova-orange;
     text-align: center;
 
+    @include tablet {
+      font-size: 2.1rem;
+    }
+
     &-container {
       width: 13.5rem;
       margin-left: auto;
@@ -121,6 +125,10 @@
       color: $terranova-orange;
       font-size: $title-font-size-mobile;
       letter-spacing: 2px;
+
+      @include tablet {
+        font-size: $title-font-size-tablet;
+      }
     }
     &-subtitle {
       font-family: "Circular Std Black";
@@ -128,6 +136,10 @@
       font-size: $subtitle-font-size-mobile;
       margin-top: 0.6rem;
       margin-bottom: 0.8rem;
+
+      @include tablet {
+        font-size: $subtitle-font-size-tablet;
+      }
     }
 
     &-descr-wrapper {
@@ -136,9 +148,14 @@
 
     &-descr-indent {
       width: 17%;
+      max-width: 3.625rem;
       height: 0.1rem;
       margin-top: 1.7rem;
       background-color: $terranova-orange;
+
+      @include tablet {
+        margin-top: 2rem;
+      }
     }
 
     &-paragraph-wrapper {
@@ -146,11 +163,19 @@
       width: 75%;
       margin-left: 0.8rem;
       font-size: $paragraph-font-size-mobile;
+
+      @include tablet {
+        font-size: $paragraph-font-size-tablet;
+      }
     }
 
     &-paragraph {
       line-height: 1.5rem;
       margin-bottom: 1.3rem;
+
+      @include tablet {
+        line-height: 1.9rem;
+      }
     }
   }
 }

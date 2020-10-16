@@ -47,7 +47,7 @@ const Header = (props) => {
   return (
     <header className="header">
       <nav className="header__nav">
-        <span className="header__phone">Tel/Fax +1 (236) 866-4475</span>
+        <span className="header__phone">Tel: +1 (236) 866-4475</span>
         <a href="#home-about">
           <div className="header__logo-wrapper">
             <img

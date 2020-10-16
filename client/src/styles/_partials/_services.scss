@@ -1,5 +1,6 @@
 @import "./variables";
 @import "./fonts";
+@import "./breakpoints";
 
 .services {
   width: 100%;
@@ -27,6 +28,10 @@
     color: $terranova-orange;
     font-size: $title-font-size-mobile;
     letter-spacing: 2px;
+
+    @include tablet {
+      font-size: $title-font-size-tablet;
+    }
   }
 
   &__subtitle {
@@ -35,6 +40,11 @@
     font-size: $subtitle-font-size-mobile;
     margin-top: 0.6rem;
     margin-bottom: 0;
+
+    @include tablet {
+      font-size: $subtitle-font-size-tablet;
+      width: 90%;
+    }
   }
 
   &__paragraph-wrapper {
@@ -63,10 +73,17 @@
 
   //   CLUSTER 1
 
+  &__cluster1-content {
+    max-width: 40rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   &__cluster1-imgs-container {
     width: 100%;
     padding-top: 100%;
     position: relative;
+    margin-bottom: 3rem;
   }
 
   &__cluster1-wrapper {
@@ -137,7 +154,12 @@
   &__cluster1-subtitle {
     font-family: "Circular Std Black";
     color: $text-color;
-    margin-bottom: 1rem;
+    margin-bottom: 8rem;
+    margin-top: 1.5rem;
+
+    @include tablet {
+      font-size: 1.625rem;
+    }
   }
 
   &__cluster1-paragraph {
@@ -146,6 +168,12 @@
   }
 
   // CLUSTER 2
+
+  &__cluster2-content {
+    max-width: 40rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
   &__cluster2-imgs-container {
     width: 100%;

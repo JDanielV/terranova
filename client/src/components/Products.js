@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
 import Slider from "./Slider";
+import SliderBg from "./SliderBg";
 import { disableBodyScroll } from "body-scroll-lock";
 
 const Products = () => {
@@ -172,6 +173,7 @@ const Products = () => {
           </div>
         </div>
       </div>
+      <SliderBg clamshellSliderOpen={clamshellSliderOpen} avocadoSliderOpen={avocadoSliderOpen} tunaSliderOpen={tunaSliderOpen} veggiesSliderOpen={veggiesSliderOpen}/>
     </section>
   );
 };
