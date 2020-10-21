@@ -43,8 +43,8 @@ app.post("/api", (req, res) => {
 
   let mail = {
     from: name,
-    to: "j.danielv@outlook.com",
-    subject: "New Message - Terranova Website",
+    to: config.USER,
+    subject: "New Message from Terranova Website",
     text: content,
   };
 
