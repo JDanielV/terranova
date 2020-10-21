@@ -44,12 +44,23 @@ const Header = (props) => {
   const fourthNavLink = navLinks.fourthNavLink;
   const fourthLinkId = navLinks.fourthLinkId;
 
+  let activeLangEs = ["header__language"];
+  let activeLangEn = ["header__language"];
+
+  if (props.currentLang === "es") {
+    activeLangEs.push("header__active-lang");
+  }
+
+  if (props.currentLang === "en") {
+    activeLangEn.push("header__active-lang");
+  }
+
   return (
     <header className="header">
       <nav className="header__nav">
         <span className="header__phone">Tel: +1 (236) 866-4475</span>
-        <a href="#home-about">
-          <div className="header__logo-wrapper">
+        <a href="#home-about" className="header__logo-wrapper">
+          <div>
             <img
               className="header__logo"
               src="./assets/logo/terranova_logo.svg"
@@ -73,8 +84,14 @@ const Header = (props) => {
             <NavLink navLinkName={fourthNavLink} navLinkId={fourthLinkId} />
           </ul>
           <div className="header__language-wrapper">
-            <span className="header__language">EN</span>
-            <span className="header__language">ES</span>
+          <span
+            className={activeLangEn.join(" ")}
+            onClick={() => props.languageClick("en")}
+          >EN</span>
+            <span
+            className={activeLangEs.join(" ")}
+            onClick={() => props.languageClick("es")}
+          >ES</span>
           </div>
         </div>
         <MobileNav
@@ -88,7 +105,7 @@ const Header = (props) => {
           thirdLinkId={thirdLinkId}
           fourthNavLink={fourthNavLink}
           fourthLinkId={fourthLinkId}
-          currentLang={props.currentLang}
+          currentLang={activeLang}
         />
         <MobileNavBg sidebarOpen={props.sidebarOpen} />
       </nav>

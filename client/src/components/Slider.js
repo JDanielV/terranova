@@ -19,13 +19,13 @@ const Slider = (props) => {
           onClick={() => {
             props.toggleSlider();
             enableBodyScroll();
+            document.ontouchmove = (e) => true;
           }}
         />
       </div>
       <SliderContent
         imageURLs={props.imageURLs}
         product={props.product}
-        viewportWidth={props.viewportWidth}
       />
     </div>
   );

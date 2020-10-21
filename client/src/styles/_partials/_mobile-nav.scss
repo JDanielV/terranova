@@ -1,5 +1,6 @@
 @import "./variables";
 @import "./fonts";
+@import "./breakpoints";
 
 .mobile-nav {
   position: fixed;
@@ -11,6 +12,10 @@
   max-width: 30rem;
   z-index: 12;
   transition: transform 0.2s ease-out;
+
+  @include desktop {
+    display: none;
+  }
 
   &__layout-wrapper {
     padding: 1rem 1.5rem 1rem 1.5rem;

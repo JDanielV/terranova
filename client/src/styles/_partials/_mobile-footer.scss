@@ -13,6 +13,10 @@
   padding: 0 1.5rem 0 1.5rem;
   box-sizing: border-box;
 
+  @include desktop {
+    display: none;
+  }
+
   &__language {
     &:hover {
       cursor: pointer;

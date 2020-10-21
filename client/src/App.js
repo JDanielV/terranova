@@ -28,6 +28,7 @@ function App() {
       <Header
         sidebarOpen={sidebarOpen}
         sidebarClick={sidebarClick}
+        languageClick={languageClick}
         currentLang={currentLang}
       />
       <HomeAbout />
@@ -35,7 +36,7 @@ function App() {
       <Services />
       <MobileFooter languageClick={languageClick} currentLang={currentLang} />
       <Contact />
-      <Footer />
+      <Footer/>
     </div>
   );
 }
