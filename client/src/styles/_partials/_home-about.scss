@@ -7,6 +7,10 @@
   margin-top: 4rem;
   margin-bottom: 2.2rem;
 
+  @include desktop {
+    position: relative;
+  }
+
   &__pic-cluster {
     display: flex;
     height: 70vh;
@@ -19,7 +23,7 @@
 
     @include desktop {
       height: 100vh;
-      max-width: 90rem;
+      max-width: 95rem;
       max-height: 63.25rem;
       justify-content: space-between;
     }
@@ -30,7 +34,7 @@
 
     &-container {
       width: 50%;
-      max-width: 35.687rem;
+      max-width: 34.687rem;
       height: auto;
       overflow: hidden;
 
@@ -45,7 +49,7 @@
 
     &-container {
       width: 50%;
-      max-width: 35.687rem;
+      max-width: 34.687rem;
       display: flex;
       align-items: flex-end;
 
@@ -65,12 +69,27 @@
       font-size: 2.1rem;
     }
 
+    @include desktop {
+      font-size: 2.5rem;
+    }
+
     &-container {
       width: 13.5rem;
       margin-left: auto;
       margin-right: auto;
       height: auto;
       padding-left: 1rem;
+      z-index: 1;
+
+      @include desktop {
+        position: absolute;
+        top: 1%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        padding: 0;
+        width: 18rem;
+      }
     }
   }
 
