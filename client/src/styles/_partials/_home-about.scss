@@ -140,26 +140,37 @@
       max-width: 48rem;
       padding: 0 1rem 0 1rem;
       color: $text-color;
+
+      @include desktop {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        max-width: 80%;
+        padding: 0;
+      }
     }
 
     &-circular-pic2-container {
-      display: none;
-      background: url("/assets/images/norteamerica_02.png");
-      width: 13.5rem;
-      height: 13.5rem;
-      border-radius: 150px;
-      background-position: 50% 45%;
-      background-size: 230px;
-      margin-left: 6.5rem;
+      @include desktop {
+        display: inline-block;
+        background: url("/assets/images/norteamerica_full.png");
+        background-position: 7% 25%;
+        background-size: 1300px;
+        border-radius: 300px;
+        width: 29.5rem;
+        min-width: 29.5rem;
+        height: 29.5rem;
+        min-height: 29.5rem;
+        margin: auto 0 auto 0;
+      }
+    }
 
-      // DESKTOP VIEW RULES FOLLOWING
+    &-text {
+      @include desktop {
+        width: auto;
 
-      // background: url("/assets/images/norteamerica_full.png");
-      // background-position: 7% 25%;
-      // background-size: 600px;
-      // border-radius: 150px;
-      // width: 13.5rem;
-      // height: 13.5rem;
+        max-width: 50rem;
+      }
     }
 
     &-title {
@@ -183,10 +194,17 @@
       @include tablet {
         font-size: $subtitle-font-size-tablet;
       }
+
+      @include desktop {
+        font-size: 3.7rem;
+        width: 60%;
+        min-width: 35rem;
+      }
     }
 
     &-descr-wrapper {
       display: flex;
+      width: auto;
     }
 
     &-descr-indent {
@@ -199,6 +217,11 @@
       @include tablet {
         margin-top: 2rem;
       }
+
+      @include desktop {
+        width: 25%;
+        max-width: 6.625rem;
+      }
     }
 
     &-paragraph-wrapper {
@@ -209,6 +232,10 @@
 
       @include tablet {
         font-size: $paragraph-font-size-tablet;
+      }
+
+      @include desktop {
+        max-width: 35.625rem;
       }
     }
 

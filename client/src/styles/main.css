@@ -422,15 +422,43 @@
   color: #404040;
 }
 
-.home-about__about-circular-pic2-container {
-  display: none;
-  background: url("/assets/images/norteamerica_02.png");
-  width: 13.5rem;
-  height: 13.5rem;
-  border-radius: 150px;
-  background-position: 50% 45%;
-  background-size: 230px;
-  margin-left: 6.5rem;
+@media (min-width: 1440px) {
+  .home-about__about-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    max-width: 80%;
+    padding: 0;
+  }
+}
+
+@media (min-width: 1440px) {
+  .home-about__about-circular-pic2-container {
+    display: inline-block;
+    background: url("/assets/images/norteamerica_full.png");
+    background-position: 7% 25%;
+    background-size: 1300px;
+    border-radius: 300px;
+    width: 29.5rem;
+    min-width: 29.5rem;
+    height: 29.5rem;
+    min-height: 29.5rem;
+    margin: auto 0 auto 0;
+  }
+}
+
+@media (min-width: 1440px) {
+  .home-about__about-text {
+    width: auto;
+    max-width: 50rem;
+  }
 }
 
 .home-about__about-title {
@@ -461,10 +489,19 @@
   }
 }
 
+@media (min-width: 1440px) {
+  .home-about__about-subtitle {
+    font-size: 3.7rem;
+    width: 60%;
+    min-width: 35rem;
+  }
+}
+
 .home-about__about-descr-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: auto;
 }
 
 .home-about__about-descr-indent {
@@ -481,6 +518,13 @@
   }
 }
 
+@media (min-width: 1440px) {
+  .home-about__about-descr-indent {
+    width: 25%;
+    max-width: 6.625rem;
+  }
+}
+
 .home-about__about-paragraph-wrapper {
   font-family: "Circular Std Book";
   width: 75%;
@@ -491,6 +535,12 @@
 @media (min-width: 768px) {
   .home-about__about-paragraph-wrapper {
     font-size: 1.1rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .home-about__about-paragraph-wrapper {
+    max-width: 35.625rem;
   }
 }
 
@@ -562,6 +612,12 @@
   margin-right: auto;
 }
 
+@media (min-width: 1440px) {
+  .products__content-wrapper {
+    max-width: 80%;
+  }
+}
+
 .products__title {
   font-family: "Circular Std Black";
   width: 85%;
@@ -583,6 +639,19 @@
           justify-content: space-evenly;
 }
 
+@media (min-width: 1440px) {
+  .products__products-wrapper {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+.products__product-wrapper {
+  width: 21%;
+}
+
 .products__product-category-img {
   height: auto;
   width: 100%;
@@ -590,6 +659,12 @@
           transform: scale(1.2);
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
+}
+
+@media (min-width: 1440px) {
+  .products__product-category-img {
+    width: 100%;
+  }
 }
 
 .products__product-category-img-container {
