@@ -9,11 +9,17 @@
   background-color: $section-bg-color;
   padding: 0 1rem 1rem 1rem;
   box-sizing: border-box;
+  padding-top: 3rem;
 
   &__content-wrapper {
     max-width: 48rem;
     margin-left: auto;
     margin-right: auto;
+
+    @include desktop {
+      max-width: 75%;
+      padding-top: 0.5rem;
+    }
   }
 
   &__text-wrapper1 {
@@ -45,6 +51,11 @@
       font-size: $subtitle-font-size-tablet;
       width: 90%;
     }
+
+    @include desktop {
+      width: 60%;
+      font-size: $subtitle-font-size-desktop;
+    }
   }
 
   &__paragraph-wrapper {
@@ -69,6 +80,16 @@
   &__hero-img {
     width: 100%;
     margin-top: 3rem;
+
+    @include desktop {
+    }
+  }
+
+  &__clusters-wrapper {
+    @include desktop {
+      display: flex;
+      justify-content: space-between;
+    }
   }
 
   //   CLUSTER 1
@@ -77,13 +98,16 @@
     max-width: 40rem;
     margin-left: auto;
     margin-right: auto;
+
+    @include desktop {
+      max-width: 27rem;
+    }
   }
 
   &__cluster1-imgs-container {
     width: 100%;
     padding-top: 100%;
     position: relative;
-    margin-bottom: 3rem;
   }
 
   &__cluster1-wrapper {
@@ -173,6 +197,10 @@
     max-width: 40rem;
     margin-left: auto;
     margin-right: auto;
+
+    @include desktop {
+      max-width: 27rem;
+    }
   }
 
   &__cluster2-imgs-container {
