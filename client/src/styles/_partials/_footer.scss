@@ -1,5 +1,6 @@
 @import "./variables";
 @import "./fonts";
+@import "./breakpoints";
 
 .footer {
   box-sizing: border-box;
@@ -12,9 +13,21 @@
   border-top: 1px solid lightgray;
   background-color: $footer-bg-color;
 
+  @include desktop {
+    flex-direction: row;
+    height: 8.5rem;
+    align-items: center;
+    padding-bottom: 0.5rem;
+    justify-content: space-between;
+  }
+
   &__company-wrapper {
     font-family: "Circular Std Book";
     margin: 1rem auto 2rem auto;
+
+    @include desktop {
+      margin: 1rem 2rem 2rem 2rem;
+    }
   }
 
   &__company-name {
@@ -40,6 +53,10 @@
     margin-left: auto;
     margin-right: auto;
     overflow: hidden;
+
+    @include desktop {
+      margin: 1rem 2rem 1rem 2rem;
+    }
   }
 
   &__social-icon-link {

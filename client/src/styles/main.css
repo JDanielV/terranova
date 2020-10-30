@@ -851,6 +851,10 @@
   outline: none;
 }
 
+.products__slider .products__slider-button-left:hover, .products__slider .products__slider-button-right:hover {
+  cursor: pointer;
+}
+
 .products__slider-button-left {
   background: white;
   background: -webkit-gradient(linear, left top, right top, color-stop(15%, rgba(255, 255, 255, 0.860789)), color-stop(60%, rgba(252, 252, 252, 0)));
@@ -1056,6 +1060,19 @@
 }
 
 @media (min-width: 1440px) {
+  .services__hero-img {
+    position: absolute;
+    width: 40%;
+    margin-top: 1rem;
+    display: block;
+    left: 50%;
+    -webkit-transform: translate(-50%);
+            transform: translate(-50%);
+    z-index: 1;
+  }
+}
+
+@media (min-width: 1440px) {
   .services__clusters-wrapper {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1063,6 +1080,7 @@
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+    margin-top: 35rem;
   }
 }
 
@@ -1075,6 +1093,7 @@
 @media (min-width: 1440px) {
   .services__cluster1-content {
     max-width: 27rem;
+    z-index: 2;
   }
 }
 
@@ -1115,13 +1134,6 @@
           justify-content: flex-start;
   width: 35%;
   z-index: 3;
-}
-
-.services__cluster1-handshake {
-  display: none;
-  width: 100%;
-  -webkit-transform: scale(1.6);
-          transform: scale(1.6);
 }
 
 .services__cluster1-handshake-bg {
@@ -1200,6 +1212,7 @@
 @media (min-width: 1440px) {
   .services__cluster2-content {
     max-width: 27rem;
+    z-index: 2;
   }
 }
 
@@ -1844,9 +1857,32 @@
   background-color: #f6f6f6;
 }
 
+@media (min-width: 1440px) {
+  .footer {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    height: 8.5rem;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-bottom: 0.5rem;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
 .footer__company-wrapper {
   font-family: "Circular Std Book";
   margin: 1rem auto 2rem auto;
+}
+
+@media (min-width: 1440px) {
+  .footer__company-wrapper {
+    margin: 1rem 2rem 2rem 2rem;
+  }
 }
 
 .footer__company-name {
@@ -1876,6 +1912,12 @@
   margin-left: auto;
   margin-right: auto;
   overflow: hidden;
+}
+
+@media (min-width: 1440px) {
+  .footer__social-wrapper {
+    margin: 1rem 2rem 1rem 2rem;
+  }
 }
 
 .footer__social-icon-link {

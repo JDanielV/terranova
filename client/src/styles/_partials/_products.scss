@@ -184,6 +184,10 @@
       height: 13%;
       top: 37%;
       outline: none;
+
+      &:hover {
+        cursor: pointer;
+      }
     }
 
     &-button {

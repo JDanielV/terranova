@@ -82,6 +82,13 @@
     margin-top: 3rem;
 
     @include desktop {
+      position: absolute;
+      width: 40%;
+      margin-top: 1rem;
+      display: block;
+      left: 50%;
+      transform: translate(-50%);
+      z-index: 1;
     }
   }
 
@@ -89,6 +96,7 @@
     @include desktop {
       display: flex;
       justify-content: space-between;
+      margin-top: 35rem;
     }
   }
 
@@ -101,6 +109,7 @@
 
     @include desktop {
       max-width: 27rem;
+      z-index: 2;
     }
   }
 
@@ -133,28 +142,22 @@
   }
 
   // SEE IF THIS CAN BE POSITIONED BETTER BY THE END
-  &__cluster1-handshake {
-    display: none;
-    width: 100%;
-    transform: scale(1.6);
-
-    &-bg {
-      position: absolute;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      background: url("/assets/images/consultoria_03.png");
-      background-position: center;
-      background-size: cover;
-      overflow: hidden;
-      width: 70%;
-      height: 70%;
-      left: 30%;
-      margin-left: -50px;
-      top: 15%;
-      z-index: 1;
-      border-radius: 150px;
-    }
+  &__cluster1-handshake-bg {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("/assets/images/consultoria_03.png");
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    width: 70%;
+    height: 70%;
+    left: 30%;
+    margin-left: -50px;
+    top: 15%;
+    z-index: 1;
+    border-radius: 150px;
   }
 
   &__cluster1-img2 {
@@ -200,6 +203,7 @@
 
     @include desktop {
       max-width: 27rem;
+      z-index: 2;
     }
   }
 

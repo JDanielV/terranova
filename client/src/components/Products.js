@@ -1,11 +1,17 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import Slider from "./Slider";
 import SliderBg from "./SliderBg";
 import { disableBodyScroll } from "body-scroll-lock";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const Products = () => {
   const { t } = useTranslation();
+
+  useEffect(()=> {
+    Aos.init({ duration: 1000});
+  }, []);
 
   const [clamshellSliderOpen, setClamshellSliderOpen] = useState(false);
   const [tunaSliderOpen, setTunaSliderOpen] = useState(false);
@@ -67,6 +73,9 @@ const Products = () => {
             />
             <div
               className="products__product-category-img-container"
+              data-aos="fade-up"
+              data-aos-duration="500"
+              data-aos-once="true"
               onClick={() => {
                 showClamshellSlider();
                 disableBodyScroll();
@@ -93,6 +102,9 @@ const Products = () => {
             />
             <div
               className="products__product-category-img-container"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-once="true"
               onClick={() => {
                 showTunaSlider();
                 disableBodyScroll();
@@ -119,6 +131,9 @@ const Products = () => {
             />
             <div
               className="products__product-category-img-container"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-once="true"
               onClick={() => {
                 showAvocadoSlider();
                 disableBodyScroll();
@@ -145,6 +160,9 @@ const Products = () => {
             />
             <div
               className="products__product-category-img-container"
+              data-aos="fade-up"
+              data-aos-duration="2000"
+              data-aos-once="true"
               onClick={() => {
                 showVeggiesSlider();
                 disableBodyScroll();

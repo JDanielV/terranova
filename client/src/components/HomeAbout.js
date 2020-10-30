@@ -1,8 +1,14 @@
-import React from "react";
+import React, {useEffect} from "react";
 import { useTranslation } from "react-i18next";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const HomeAbout = () => {
   const { t } = useTranslation();
+
+  useEffect(()=> {
+    Aos.init({ duration: 1000});
+  }, []);
 
   return (
     // HOME HTML STARTS HERE
@@ -41,7 +47,9 @@ const HomeAbout = () => {
       {/* ABOUT PAGE HTML STARTS HERE */}
 
       <div className="home-about__about-container">
-        <div className="home-about__about-circular-pic2-container"></div>
+        <div className="home-about__about-circular-pic2-container" data-aos="fade-up-left"
+              data-aos-duration="2000"
+              data-aos-once="true"/>
         <div className="home-about__about-text">
           <h2 className="home-about__about-title">{t("aboutTitle.1")}</h2>
           <h3 className="home-about__about-subtitle">{t("aboutSubtitle.1")}</h3>
