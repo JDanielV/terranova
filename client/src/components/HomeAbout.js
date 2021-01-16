@@ -68,7 +68,7 @@ const HomeAbout = () => {
             </div>
           </div>
           <div className="home-about__about-video-wrapper">
-            <iframe width="100%" height="100%" src={t("aboutVideo.1")} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe>
+            <iframe width="100%" height="100%" src={t("aboutVideo.1")} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true" title="youtube presentation video"></iframe>
           </div>
         </div>
       </div>
