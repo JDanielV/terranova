@@ -140,6 +140,7 @@
       max-width: 48rem;
       padding: 0 1rem 0 1rem;
       color: $text-color;
+      box-sizing: border-box;
 
       @include desktop {
         display: flex;
@@ -246,6 +247,18 @@
       @include tablet {
         line-height: 1.9rem;
       }
+    }
+
+    &-video-wrapper {
+        box-sizing: border-box;
+        width: 100%;
+        max-width: 100%;
+        height: 193px;
+
+        @include tablet {
+          width: 87%;
+          height: 392px;
+        }
     }
   }
 }

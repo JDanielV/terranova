@@ -420,6 +420,8 @@
   max-width: 48rem;
   padding: 0 1rem 0 1rem;
   color: #404040;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 @media (min-width: 1440px) {
@@ -552,6 +554,21 @@
 @media (min-width: 768px) {
   .home-about__about-paragraph {
     line-height: 1.9rem;
+  }
+}
+
+.home-about__about-video-wrapper {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  max-width: 100%;
+  height: 193px;
+}
+
+@media (min-width: 768px) {
+  .home-about__about-video-wrapper {
+    width: 87%;
+    height: 392px;
   }
 }
 
