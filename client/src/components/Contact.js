@@ -19,14 +19,14 @@ const Contact = () => {
             />
             <div className="contact__text-wrapper">
               <p className="contact__company-name">Terranova Marketing Inc.</p>
-              <div className="contact__address">
+              {/* <div className="contact__address">
                 <p className="contact__office">{t("contactOffice.1")}</p>
                 <p className="contact__office-address1">
                   922-510 W Hastings Street
                 </p>
                 <p className="contact__office-address2">Vancouver, BC V6B 1L8</p>
                 <p className="contact__office-address3">Canada</p>
-              </div>
+              </div> */}
               <div className="contact__address">
                 <p className="contact__office">{t("contactMailing.1")}</p>
                 <p className="contact__office-address1">
@@ -38,8 +38,10 @@ const Contact = () => {
             </div>
           </div>
           <div className="contact__map-form-wrapper">
-            <div className="contact__map-wrapper">
-              <ContactMap />
+            <div className="contact__map-wrapper-wrapper">
+              <div className="contact__map-wrapper">
+                {/* <ContactMap /> */}
+              </div>
             </div>
             <ContactForm />
           </div>
