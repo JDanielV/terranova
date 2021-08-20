@@ -344,16 +344,23 @@
 @media (min-width: 1440px) {
   .home-about__home-title {
     font-size: 2.5rem;
+    margin-left: 3rem;
   }
 }
 
 .home-about__home-title-container {
-  width: 13.5rem;
+  width: 15.5rem;
   margin-left: auto;
   margin-right: auto;
   height: auto;
   padding-left: 1rem;
   z-index: 1;
+}
+
+@media (min-width: 768px) {
+  .home-about__home-title-container {
+    width: 18.5rem;
+  }
 }
 
 @media (min-width: 1440px) {
@@ -364,7 +371,7 @@
     right: 0;
     margin: auto;
     padding: 0;
-    width: 18rem;
+    width: 30rem;
   }
 }
 
