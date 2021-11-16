@@ -58,7 +58,7 @@ const Header = (props) => {
   return (
     <header className="header">
       <nav className="header__nav">
-        <span className="header__phone">Tel: +1 (236) 866-4475</span>
+        <span className="header__phone">Tel: +1 (604) 669-3355</span>
         <a href="#home-about" className="header__logo-wrapper">
           <div>
             <img
@@ -84,14 +84,18 @@ const Header = (props) => {
             <NavLink navLinkName={fourthNavLink} navLinkId={fourthLinkId} />
           </ul>
           <div className="header__language-wrapper">
-          <span
-            className={activeLangEn.join(" ")}
-            onClick={() => props.languageClick("en")}
-          >EN</span>
             <span
-            className={activeLangEs.join(" ")}
-            onClick={() => props.languageClick("es")}
-          >ES</span>
+              className={activeLangEn.join(" ")}
+              onClick={() => props.languageClick("en")}
+            >
+              EN
+            </span>
+            <span
+              className={activeLangEs.join(" ")}
+              onClick={() => props.languageClick("es")}
+            >
+              ES
+            </span>
           </div>
         </div>
         <MobileNav

@@ -17,7 +17,7 @@ const MobileFooter = ({ languageClick, currentLang }) => {
       <div className="mobile-footer__wrapper">
         <div className="mobile-footer__left-divider">
           <span className="mobile-footer__phone-number">
-            Tel: +1 (236) 866-4475
+            Tel: +1 (604) 669-3355
           </span>
         </div>
         <div className="mobile-footer__right-divider">
