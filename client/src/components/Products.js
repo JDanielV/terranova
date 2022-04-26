@@ -9,8 +9,8 @@ import "aos/dist/aos.css";
 const Products = () => {
   const { t } = useTranslation();
 
-  useEffect(()=> {
-    Aos.init({ duration: 1000});
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
   }, []);
 
   const [clamshellSliderOpen, setClamshellSliderOpen] = useState(false);
@@ -38,6 +38,7 @@ const Products = () => {
     "./assets/images/product-imgs/clamshell1.jpg",
     "./assets/images/product-imgs/clamshell2.jpg",
     "./assets/images/product-imgs/clamshell3.jpg",
+    "./assets/images/product-imgs/clamshell4.jpg",
   ]);
 
   const [tunaImages] = useState([
@@ -69,7 +70,6 @@ const Products = () => {
               imageURLs={clamshellImages}
               product={"clamshell"}
               toggleSlider={showClamshellSlider}
-              
             />
             <div
               className="products__product-category-img-container"
@@ -98,7 +98,6 @@ const Products = () => {
               imageURLs={tunaImages}
               product={"tuna"}
               toggleSlider={showTunaSlider}
-             
             />
             <div
               className="products__product-category-img-container"
@@ -127,7 +126,6 @@ const Products = () => {
               imageURLs={avocadoImages}
               product={"avocado"}
               toggleSlider={showAvocadoSlider}
-           
             />
             <div
               className="products__product-category-img-container"
@@ -156,7 +154,6 @@ const Products = () => {
               imageURLs={veggieCansImages}
               product={"veggies"}
               toggleSlider={showVeggiesSlider}
-            
             />
             <div
               className="products__product-category-img-container"
@@ -181,7 +178,12 @@ const Products = () => {
           </div>
         </div>
       </div>
-      <SliderBg clamshellSliderOpen={clamshellSliderOpen} avocadoSliderOpen={avocadoSliderOpen} tunaSliderOpen={tunaSliderOpen} veggiesSliderOpen={veggiesSliderOpen}/>
+      <SliderBg
+        clamshellSliderOpen={clamshellSliderOpen}
+        avocadoSliderOpen={avocadoSliderOpen}
+        tunaSliderOpen={tunaSliderOpen}
+        veggiesSliderOpen={veggiesSliderOpen}
+      />
     </section>
   );
 };
