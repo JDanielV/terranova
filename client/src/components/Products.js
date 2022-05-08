@@ -1,10 +1,15 @@
 import React, { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
-import Slider from "./Slider";
-import SliderBg from "./SliderBg";
 import { disableBodyScroll } from "body-scroll-lock";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import Carousel from "./Carousel.tsx";
+import {
+  tunaImages,
+  clamshellImages,
+  veggieCansImages,
+  avocadoImages,
+} from "../resources/CarouselData.ts";
 
 const Products = () => {
   const { t } = useTranslation();
@@ -13,51 +18,18 @@ const Products = () => {
     Aos.init({ duration: 1000 });
   }, []);
 
-  const [clamshellSliderOpen, setClamshellSliderOpen] = useState(false);
-  const [tunaSliderOpen, setTunaSliderOpen] = useState(false);
-  const [avocadoSliderOpen, setAvocadoSliderOpen] = useState(false);
-  const [veggiesSliderOpen, setVeggiesSliderOpen] = useState(false);
+  const [carouselOpen, setCarouselOpen] = useState(null);
 
-  const showClamshellSlider = () => {
-    setClamshellSliderOpen(!clamshellSliderOpen);
+  const toggleCarousel = (carousel) => {
+    setCarouselOpen(carousel);
   };
 
-  const showTunaSlider = () => {
-    setTunaSliderOpen(!tunaSliderOpen);
+  const getCarouselSlides = () => {
+    if (carouselOpen === "clamshell") return clamshellImages;
+    else if (carouselOpen === "tuna") return tunaImages;
+    else if (carouselOpen === "veggies") return veggieCansImages;
+    else if (carouselOpen === "avocado") return avocadoImages;
   };
-
-  const showAvocadoSlider = () => {
-    setAvocadoSliderOpen(!avocadoSliderOpen);
-  };
-
-  const showVeggiesSlider = () => {
-    setVeggiesSliderOpen(!veggiesSliderOpen);
-  };
-
-  const [clamshellImages] = useState([
-    "./assets/images/product-imgs/clamshell1.jpg",
-    "./assets/images/product-imgs/clamshell2.jpg",
-    "./assets/images/product-imgs/clamshell3.jpg",
-    "./assets/images/product-imgs/clamshell4.jpg",
-  ]);
-
-  const [tunaImages] = useState([
-    "./assets/images/product-imgs/tuna1.jpg",
-    "./assets/images/product-imgs/tuna2.jpg",
-    "./assets/images/product-imgs/tuna3.jpg",
-  ]);
-
-  const [avocadoImages] = useState([
-    "./assets/images/product-imgs/guac1.jpg",
-    "./assets/images/product-imgs/guac2.jpg",
-    "./assets/images/product-imgs/guac3.jpg",
-  ]);
-
-  const [veggieCansImages] = useState([
-    "./assets/images/product-imgs/can1.jpg",
-    "./assets/images/product-imgs/can2.jpg",
-    "./assets/images/product-imgs/can3.jpg",
-  ]);
 
   return (
     <section className="products" id="products">
@@ -65,19 +37,13 @@ const Products = () => {
         <h3 className="products__title">{t("productsSubtitle.1")}</h3>
         <div className="products__products-wrapper">
           <div className="products__product-wrapper">
-            <Slider
-              sliderOpen={clamshellSliderOpen}
-              imageURLs={clamshellImages}
-              product={"clamshell"}
-              toggleSlider={showClamshellSlider}
-            />
             <div
               className="products__product-category-img-container"
               data-aos="fade-up"
               data-aos-duration="500"
               data-aos-once="true"
               onClick={() => {
-                showClamshellSlider();
+                toggleCarousel("clamshell");
                 disableBodyScroll();
                 document.ontouchmove = (e) => e.preventDefault();
               }}
@@ -93,19 +59,13 @@ const Products = () => {
             </p>
           </div>
           <div className="products__product-wrapper">
-            <Slider
-              sliderOpen={tunaSliderOpen}
-              imageURLs={tunaImages}
-              product={"tuna"}
-              toggleSlider={showTunaSlider}
-            />
             <div
               className="products__product-category-img-container"
               data-aos="fade-up"
               data-aos-duration="1000"
               data-aos-once="true"
               onClick={() => {
-                showTunaSlider();
+                toggleCarousel("tuna");
                 disableBodyScroll();
                 document.ontouchmove = (e) => e.preventDefault();
               }}
@@ -121,19 +81,13 @@ const Products = () => {
             </p>
           </div>
           <div className="products__product-wrapper">
-            <Slider
-              sliderOpen={avocadoSliderOpen}
-              imageURLs={avocadoImages}
-              product={"avocado"}
-              toggleSlider={showAvocadoSlider}
-            />
             <div
               className="products__product-category-img-container"
               data-aos="fade-up"
               data-aos-duration="1500"
               data-aos-once="true"
               onClick={() => {
-                showAvocadoSlider();
+                toggleCarousel("avocado");
                 disableBodyScroll();
                 document.ontouchmove = (e) => e.preventDefault();
               }}
@@ -149,19 +103,13 @@ const Products = () => {
             </p>
           </div>
           <div className="products__product-wrapper">
-            <Slider
-              sliderOpen={veggiesSliderOpen}
-              imageURLs={veggieCansImages}
-              product={"veggies"}
-              toggleSlider={showVeggiesSlider}
-            />
             <div
               className="products__product-category-img-container"
               data-aos="fade-up"
               data-aos-duration="2000"
               data-aos-once="true"
               onClick={() => {
-                showVeggiesSlider();
+                toggleCarousel("veggies");
                 disableBodyScroll();
                 document.ontouchmove = (e) => e.preventDefault();
               }}
@@ -178,12 +126,7 @@ const Products = () => {
           </div>
         </div>
       </div>
-      <SliderBg
-        clamshellSliderOpen={clamshellSliderOpen}
-        avocadoSliderOpen={avocadoSliderOpen}
-        tunaSliderOpen={tunaSliderOpen}
-        veggiesSliderOpen={veggiesSliderOpen}
-      />
+      {carouselOpen && <Carousel carouselSlides={getCarouselSlides()} />}
     </section>
   );
 };
