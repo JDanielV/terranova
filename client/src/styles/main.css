@@ -919,38 +919,6 @@
   height: 4rem;
 }
 
-.clamshellSlider-open {
-  display: block;
-}
-
-.clamshellSlider-closed {
-  display: none;
-}
-
-.tunaSlider-open {
-  display: block;
-}
-
-.tunaSlider-closed {
-  display: none;
-}
-
-.avocadoSlider-open {
-  display: block;
-}
-
-.avocadoSlider-closed {
-  display: none;
-}
-
-.veggiesSlider-open {
-  display: block;
-}
-
-.veggiesSlider-closed {
-  display: none;
-}
-
 @font-face {
   font-family: "Circular Std Black";
   src: url(/assets/fonts/CircularStd-Black.otf);
