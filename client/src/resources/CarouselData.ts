@@ -20,10 +20,23 @@ export const clamshellImages: CarouselDataObj[] = [
     img: "./assets/images/product-imgs/clamshell4.jpg",
     imgAlt: "triangle-shaped clamshell",
   },
+  {
+    img: "./assets/images/product-imgs/clamshell5.jpg",
+    imgAlt: "pet recycle",
+  },
 ];
 
 // To be populated with images once we have them
-export const labelImages: CarouselDataObj[] = [];
+export const labelImages: CarouselDataObj[] = [
+  {
+    img: "./assets/images/product-imgs/labels1.jpg",
+    imgAlt: "labels printer machine",
+  },
+  {
+    img: "./assets/images/product-imgs/labels2.jpg",
+    imgAlt: "labels printer machine 2",
+  },
+];
 
 export const tunaImages: CarouselDataObj[] = [
   {

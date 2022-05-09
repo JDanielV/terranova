@@ -201,6 +201,9 @@
         );
         border: none;
         left: 0;
+        width: 3rem;
+        height: 4rem;
+        cursor: pointer;
 
         &-icon {
           background: url("/assets/icons/left-arrow.png");
@@ -223,6 +226,9 @@
         );
         border: none;
         right: 0;
+        width: 3rem;
+        height: 4rem;
+        cursor: pointer;
 
         &-icon {
           background: url("/assets/icons/right-arrow.png");
@@ -240,6 +246,94 @@
       &-wrapper {
         height: 4rem;
       }
+    }
+  }
+
+  &__carousel {
+    max-height: 70vh;
+    min-height: 70vh;
+    height: 70vh;
+    width: 70vw;
+    background: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 10px;
+    z-index: 12;
+
+    &-buttons-slides-wrapper {
+      display: flex;
+      align-items: center;
+      width: 85%;
+      max-width: 91rem;
+      height: 85%;
+      position: relative;
+      overflow: hidden;
+    }
+
+    &-slides-wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      width: 100%;
+    }
+
+    &-slide {
+
+      opacity: 0;
+      transition-duration: 1s ease;
+      transform: scale(.9);
+
+
+      & img {
+        max-width: 100%;
+        height: auto;
+      }
+
+      &--active {
+        opacity: 1;
+        transition-duration: 1s;
+        transform: scale(1);
+      }
+    }
+
+    &-button {
+
+      &-close-wrapper {
+        height: 21px;
+        width: 21px;
+        z-index: 12;
+        border: none;
+        background: none;
+        position: absolute;
+        right: 2rem;
+        top: 2rem;
+        padding: 0;
+        cursor: pointer;
+      }
+
+      &-close {
+        border: none;
+        width: 100%;
+        height: 100%;
+        background: url("/assets/icons/close-icon.png");
+      }
+    }
+
+    &-bg-wrapper {
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 100vh;
+      width: 100vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 12;
     }
   }
 }

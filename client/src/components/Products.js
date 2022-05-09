@@ -1,14 +1,16 @@
 import React, { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
-import { disableBodyScroll } from "body-scroll-lock";
+import { disableBodyScroll, enableBodyScroll } from "body-scroll-lock";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import Carousel from "./Carousel.tsx";
+import SliderBg from "./SliderBg";
 import {
   tunaImages,
   clamshellImages,
   veggieCansImages,
   avocadoImages,
+  labelImages,
 } from "../resources/CarouselData.ts";
 
 const Products = () => {
@@ -22,6 +24,10 @@ const Products = () => {
 
   const toggleCarousel = (carousel) => {
     setCarouselOpen(carousel);
+
+    if (carousel == null || carousel === "") {
+      enableBodyScroll();
+    }
   };
 
   const getCarouselSlides = () => {
@@ -29,6 +35,7 @@ const Products = () => {
     else if (carouselOpen === "tuna") return tunaImages;
     else if (carouselOpen === "veggies") return veggieCansImages;
     else if (carouselOpen === "avocado") return avocadoImages;
+    else if (carouselOpen === "labels") return labelImages;
   };
 
   return (
@@ -52,6 +59,28 @@ const Products = () => {
                 className="products__product-category-img"
                 src="./assets/images/tomate_empaque.jpg"
                 alt="tomatoes"
+              />
+            </div>
+            <p className="products__product-category-descr">
+              {t("productsDescription1.1")}
+            </p>
+          </div>
+          <div className="products__product-wrapper">
+            <div
+              className="products__product-category-img-container"
+              data-aos="fade-up"
+              data-aos-duration="500"
+              data-aos-once="true"
+              onClick={() => {
+                toggleCarousel("labels");
+                disableBodyScroll();
+                document.ontouchmove = (e) => e.preventDefault();
+              }}
+            >
+              <img
+                className="products__product-category-img"
+                src="./assets/images/labelpack-labels.jpg"
+                alt="labels"
               />
             </div>
             <p className="products__product-category-descr">
@@ -126,7 +155,15 @@ const Products = () => {
           </div>
         </div>
       </div>
-      {carouselOpen && <Carousel carouselSlides={getCarouselSlides()} />}
+      {carouselOpen && (
+        <div className="products__carousel-bg-wrapper">
+          <SliderBg carouselOpen={carouselOpen} />
+          <Carousel
+            carouselSlides={getCarouselSlides()}
+            toggleCarousel={toggleCarousel}
+          />
+        </div>
+      )}
     </section>
   );
 };
