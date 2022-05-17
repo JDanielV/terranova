@@ -709,8 +709,9 @@
 }
 
 .products__product-category-img {
-  height: auto;
-  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
   -webkit-transition: all 0.3s;
@@ -726,6 +727,7 @@
 .products__product-category-img-container {
   overflow: hidden;
   width: 100%;
+  height: 19rem;
 }
 
 .products__product-category-img-container:hover img {
@@ -751,7 +753,7 @@
 
 @media (min-width: 1440px) {
   .products__product-category-descr {
-    font-size: 1rem;
+    font-size: 1.2rem;
     width: 90%;
   }
 }
