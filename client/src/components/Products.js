@@ -84,7 +84,7 @@ const Products = () => {
               />
             </div>
             <p className="products__product-category-descr">
-              {t("productsDescription1.1")}
+              {t("productsDescription5.1")}
             </p>
           </div>
           <div className="products__product-wrapper">

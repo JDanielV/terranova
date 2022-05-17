@@ -81,4 +81,8 @@ export const veggieCansImages: CarouselDataObj[] = [
     img: "./assets/images/product-imgs/can3.jpg",
     imgAlt: "chili peppers",
   },
+  {
+    img: "./assets/images/product-imgs/can4.jpg",
+    imgAlt: "anaheim chilli peppers",
+  },
 ];
