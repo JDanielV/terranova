@@ -42,22 +42,13 @@
     "1": "Services"
   },
   "servicesSubtitle": {
-    "1": "We provide custom solutions."
+    "1": "We provide custom solutions"
   },
-  "servicesParagraph": {
-    "1": "Our specialty is working together to find opportunities and provide solutions to meet or exceed customer expectations."
+  "servicesParagraph1": {
+    "1": "Given our more than 20 years of experience in packaging manufacturing, produce packing, and food processing; plus our suppliers’ expertise, we have provided custom products and services to customers in Canada, the U.S., and Mexico. We strive to find the best fit for your needs in food packaging, labeling, and automation equipment."
   },
-  "servicesService1Subtitle": {
-    "1": "Sales and international trade consulting"
-  },
-  "servicesService1Paragraph": {
-    "1": "We can help you find the right market for your products."
-  },
-  "servicesService2Subtitle": {
-    "1": "Logistics: freight, importing, warehousing"
-  },
-  "servicesService2Paragraph": {
-    "1": "We offer freight, importing into Canada and warehousing services."
+  "servicesParagraph2": {
+    "1": "Through our foodservice division, we bring specialty products of the highest quality and the best flavour to leading national distributors in Canada and Australia."
   },
   "contactTitle": {
     "1": "Contact Us"
