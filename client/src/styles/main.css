@@ -639,7 +639,7 @@
 @media (min-width: 1440px) {
   .products__content-wrapper {
     max-width: 85%;
-    height: 100vh;
+    min-height: 100vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
