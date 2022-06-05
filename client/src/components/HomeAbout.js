@@ -47,9 +47,12 @@ const HomeAbout = () => {
       {/* ABOUT PAGE HTML STARTS HERE */}
 
       <div className="home-about__about-container">
-        <div className="home-about__about-circular-pic2-container" data-aos="fade-up-left"
+        <div
+          className="home-about__about-circular-pic2-container"
+          data-aos="fade-up-left"
           data-aos-duration="2000"
-          data-aos-once="true" />
+          data-aos-once="true"
+        />
         <div className="home-about__about-text">
           <h2 className="home-about__about-title">{t("aboutTitle.1")}</h2>
           <h3 className="home-about__about-subtitle">{t("aboutSubtitle.1")}</h3>
@@ -66,9 +69,6 @@ const HomeAbout = () => {
                 {t("aboutParagraph3.1")}
               </p>
             </div>
-          </div>
-          <div className="home-about__about-video-wrapper">
-            <iframe width="100%" height="100%" src={t("aboutVideo.1")} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true" title="youtube presentation video"></iframe>
           </div>
         </div>
       </div>

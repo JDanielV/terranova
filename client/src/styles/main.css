@@ -639,7 +639,7 @@
 @media (min-width: 1440px) {
   .products__content-wrapper {
     max-width: 85%;
-    height: 100vh;
+    min-height: 100vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -653,6 +653,7 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    padding-top: 5rem;
   }
 }
 
@@ -682,32 +683,36 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 @media (min-width: 1440px) {
   .products__products-wrapper {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    gap: 4rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 
 @media (min-width: 1440px) {
   .products__product-wrapper {
-    width: 23%;
+    width: 30%;
+    max-width: 33rem;
   }
 }
 
 .products__product-category-img {
-  height: auto;
-  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
   -webkit-transition: all 0.3s;
@@ -723,6 +728,8 @@
 .products__product-category-img-container {
   overflow: hidden;
   width: 100%;
+  height: 19rem;
+  text-align: center;
 }
 
 .products__product-category-img-container:hover img {
@@ -748,7 +755,7 @@
 
 @media (min-width: 1440px) {
   .products__product-category-descr {
-    font-size: 1rem;
+    font-size: 1.2rem;
     width: 90%;
   }
 }
@@ -885,6 +892,17 @@
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.860789) 15%, rgba(252, 252, 252, 0) 60%);
   border: none;
   left: 0;
+  width: 3rem;
+  height: 4rem;
+  position: absolute;
+  z-index: 2;
+}
+
+@media (min-width: 1440px) {
+  .products__slider-button-left {
+    cursor: pointer;
+    position: static;
+  }
 }
 
 .products__slider-button-left-icon {
@@ -895,6 +913,8 @@
   width: 35px;
   height: 35px;
   margin: 0 auto 0 0;
+  -webkit-transform: translateX(-0.4rem);
+          transform: translateX(-0.4rem);
 }
 
 .products__slider-button-right {
@@ -903,6 +923,17 @@
   background: linear-gradient(90deg, rgba(252, 252, 252, 0) 40%, rgba(255, 255, 255, 0.860789) 85%);
   border: none;
   right: 0;
+  width: 3rem;
+  height: 4rem;
+  cursor: pointer;
+  position: absolute;
+}
+
+@media (min-width: 1440px) {
+  .products__slider-button-right {
+    cursor: pointer;
+    position: static;
+  }
 }
 
 .products__slider-button-right-icon {
@@ -919,36 +950,148 @@
   height: 4rem;
 }
 
-.clamshellSlider-open {
-  display: block;
+.products__carousel {
+  max-height: 100vh;
+  min-height: 100vh;
+  height: 100vh;
+  width: 100vw;
+  background: white;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+  z-index: 12;
 }
 
-.clamshellSlider-closed {
-  display: none;
+@media (min-width: 1440px) {
+  .products__carousel {
+    max-height: 70vh;
+    min-height: 70vh;
+    height: 70vh;
+    width: 70vw;
+    background: white;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    overflow: hidden;
+    border-radius: 10px;
+  }
 }
 
-.tunaSlider-open {
-  display: block;
+.products__carousel-buttons-slides-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
 }
 
-.tunaSlider-closed {
-  display: none;
+@media (min-width: 1440px) {
+  .products__carousel-buttons-slides-wrapper {
+    width: 85%;
+    max-width: 91rem;
+    height: 85%;
+  }
 }
 
-.avocadoSlider-open {
-  display: block;
+.products__carousel-slides-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  width: 100%;
 }
 
-.avocadoSlider-closed {
-  display: none;
+.products__carousel-slide {
+  opacity: 0;
+  -webkit-transition-duration: 1s ease;
+          transition-duration: 1s ease;
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
 }
 
-.veggiesSlider-open {
-  display: block;
+.products__carousel-slide img {
+  max-width: 100%;
+  height: auto;
 }
 
-.veggiesSlider-closed {
-  display: none;
+.products__carousel-slide--active {
+  opacity: 1;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.products__carousel-button-close-wrapper {
+  height: 21px;
+  width: 21px;
+  z-index: 12;
+  border: none;
+  background: none;
+  position: absolute;
+  right: 2rem;
+  top: 2rem;
+  padding: 0;
+  cursor: pointer;
+}
+
+.products__carousel-button-close {
+  border: none;
+  width: 100%;
+  height: 100%;
+  background: url("/assets/icons/close-icon.png");
+}
+
+.products__carousel-bg-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 12;
 }
 
 @font-face {
