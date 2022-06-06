@@ -17,11 +17,11 @@ export const clamshellImages: CarouselDataObj[] = [
     imgAlt: "cookies in clamshells",
   },
   {
-    img: "./assets/images/product-imgs/clamshell4.jpg",
+    img: "./assets/images/product-imgs/clamshell4.JPG",
     imgAlt: "triangle-shaped clamshell",
   },
   {
-    img: "./assets/images/product-imgs/clamshell5.jpg",
+    img: "./assets/images/product-imgs/clamshell5.JPG",
     imgAlt: "pet recycle",
   },
 ];
