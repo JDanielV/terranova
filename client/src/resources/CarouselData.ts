@@ -26,7 +26,6 @@ export const clamshellImages: CarouselDataObj[] = [
   },
 ];
 
-// To be populated with images once we have them
 export const labelImages: CarouselDataObj[] = [
   {
     img: "./assets/images/product-imgs/labels1.jpg",
