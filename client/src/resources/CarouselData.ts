@@ -89,3 +89,55 @@ export const veggieCansImages: CarouselDataObj[] = [
     imgAlt: "hominy corn",
   },
 ];
+
+export const furnitureImages: CarouselDataObj[] = [
+  {
+    img: "./assets/images/product-imgs/furniture1.jpg",
+    imgAlt: "chickpeas",
+  },
+  {
+    img: "./assets/images/product-imgs/furniture2.jpg",
+    imgAlt: "green tomato",
+  },
+  {
+    img: "./assets/images/product-imgs/furniture3.jpg",
+    imgAlt: "chili peppers",
+  },
+];
+
+export const automationImages: CarouselDataObj[] = [
+  {
+    img: "./assets/images/product-imgs/automation1.jpg",
+    imgAlt: "chickpeas",
+  },
+  {
+    img: "./assets/images/product-imgs/automation2.jpg",
+    imgAlt: "green tomato",
+  },
+  {
+    img: "./assets/images/product-imgs/automation3.jpg",
+    imgAlt: "chili peppers",
+  },
+];
+
+export const renewableImages: CarouselDataObj[] = [
+  {
+    img: "./assets/images/product-imgs/renewable1.jpg",
+    imgAlt: "chickpeas",
+  },
+  {
+    img: "./assets/images/product-imgs/renewable2.jpg",
+    imgAlt: "green tomato",
+  },
+];
+
+export const heavyEquipmentImages: CarouselDataObj[] = [
+  {
+    img: "./assets/images/product-imgs/heavy-equipment1.jpg",
+    imgAlt: "chickpeas",
+  },
+  {
+    img: "./assets/images/product-imgs/heavy-equipment2.jpg",
+    imgAlt: "green tomato",
+  },
+];
