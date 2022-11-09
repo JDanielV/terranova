@@ -31,17 +31,14 @@ const Services = () => {
   return (
     <section className="services" id="services">
       <div className="services__content-wrapper">
-        <div className="home-about__about-text">
+        <div className="services__text">
           <h2 className="home-about__about-title">{t("servicesTitle.1")}</h2>
           <h3 className="services__subtitle">{t("servicesSubtitle.1")}</h3>
           <div className="home-about__about-descr-wrapper">
             <div className="home-about__about-descr-indent" />
-            <div className="home-about__about-paragraph-wrapper">
-              <p className="home-about__about-paragraph">
+            <div className="services__text-paragraph-wrapper">
+              <p className="services__text-paragraph">
                 {t("servicesParagraph1.1")}
-              </p>
-              <p className="home-about__about-paragraph">
-                {t("servicesParagraph2.1")}
               </p>
             </div>
           </div>
