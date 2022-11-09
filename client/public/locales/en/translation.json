@@ -54,10 +54,25 @@
     "1": "We work together towards your sales goals"
   },
   "servicesParagraph1": {
-    "1": "Given our more than 20 years of experience in packaging manufacturing, produce packing, and food processing; plus our suppliers’ expertise, we have provided custom products and services to customers in Canada, the U.S., and Mexico. We strive to find the best fit for your needs in food packaging, labeling, and automation equipment."
+    "1": "Our tiers of services range from identifying prospects to logistics arrangements."
   },
-  "servicesParagraph2": {
-    "1": "Through our foodservice division, we bring specialty products of the highest quality and the best flavour to leading national distributors in Canada and Australia."
+  "servicesCardTitle1": {
+    "1": "Prospecting"
+  },
+  "servicesCardTitle2": {
+    "1": "Dedicated sales"
+  },
+  "servicesCardTitle3": {
+    "1": "Logistics"
+  },
+  "servicesCardSubtitle1": {
+    "1": "Identifying and directly contacting potential buyers."
+  },
+  "servicesCardSubtitle2": {
+    "1": "We act as an extension of your sales team."
+  },
+  "servicesCardSubtitle3": {
+    "1": "We can help getting your products to your customers' door with our support in customs and freight."
   },
   "contactTitle": {
     "1": "Contact Us"

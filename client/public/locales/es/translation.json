@@ -54,10 +54,25 @@
     "1": "Trabajamos juntos hacia tus objetivos de venta"
   },
   "servicesParagraph1": {
-    "1": "Contamos con más de 20 años de experiencia en manufactura de empaques, empacado de frutas y verduras, y alimentos procesados; además del extenso conocimiento de nuestros proveedores. Hemos proveído productos y servicios a clientes en Canadá, los Estados Unidos, y México. Nos esforzamos para encontrar la mejor solución para tus necesidades en empaques para alimentos, etiquetado, y equipos para líneas automatizadas."
+    "1": "Nuestros niveles de servicios van desde la identificación de prospectos hasta arreglos logísticos."
   },
-  "servicesParagraph2": {
-    "1": "A través de nuestra división de foodservice, ofrecemos productos de la más alta calidad y el mejor sabor a importantes distribuidores a nivel nacional en Canadá y Australia."
+  "servicesCardTitle1": {
+    "1": "Prospectación"
+  },
+  "servicesCardTitle2": {
+    "1": "Ventas dedicadas"
+  },
+  "servicesCardTitle3": {
+    "1": "Logistics"
+  },
+  "servicesCardSubtitle1": {
+    "1": "Identificamos y contactamos directamente a clientes potenciales."
+  },
+  "servicesCardSubtitle2": {
+    "1": "Actuamos como una extensión de tu equipo de ventas."
+  },
+  "servicesCardSubtitle3": {
+    "1": "Podemos ayudar a llevar tus productos hasta las puertas de tus clientes con nuestro apoyo en aduana y fletes."
   },
   "contactTitle": {
     "1": "Contáctanos"
