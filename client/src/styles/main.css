@@ -1196,9 +1196,30 @@
 
 @media (min-width: 1440px) {
   .services__subtitle {
-    width: 60%;
+    width: 90%;
     font-size: 2.6rem;
   }
+}
+
+@media (min-width: 1440px) {
+  .services__text {
+    width: auto;
+    z-index: 1;
+    max-width: 60rem;
+  }
+}
+
+.services__text-paragraph {
+  line-height: 1.5rem;
+  margin-bottom: 1.3rem;
+  font-size: 1.3rem;
+}
+
+.services__text-paragraph-wrapper {
+  font-family: "Circular Std Book";
+  width: 75%;
+  margin-left: 0.8rem;
+  font-size: 1rem;
 }
 
 .services__paragraph-wrapper {
