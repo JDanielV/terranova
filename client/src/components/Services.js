@@ -6,6 +6,24 @@ import "aos/dist/aos.css";
 const Services = () => {
   const { t } = useTranslation();
 
+  const servicesData = [
+    {
+      title: t("servicesCardTitle1.1"),
+      subtitle: t("servicesCardSubtitle1.1"),
+      imgUrl: "",
+    },
+    {
+      title: t("servicesCardTitle2.1"),
+      subtitle: t("servicesCardSubtitle2.1"),
+      imgUrl: "",
+    },
+    {
+      title: t("servicesCardTitle3.1"),
+      subtitle: t("servicesCardSubtitle3.1"),
+      imgUrl: "",
+    },
+  ];
+
   useEffect(() => {
     Aos.init({ duration: 1000 });
   }, []);
