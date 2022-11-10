@@ -1,18 +1,18 @@
 {
   "heroHeader": {
-    "1": "Proveedor para la industria de alimentos"
+    "1": "Agencia de Servicios de Ventas"
   },
   "aboutTitle": {
     "1": "Acerca de nosotros"
   },
   "aboutSubtitle": {
-    "1": "Soluciones a la Medida y Valor para el Largo Plazo"
+    "1": "Llevamos tus productos a nuevos mercados"
   },
   "aboutParagraph1": {
-    "1": "Terranova Sales es una reconocida agencia comercial localizada en Vancouver, BC, Canadá, con más de 15 años trabajando con clientes como productores y distribuidores de hortalizas y frutas frescas, fábricas de pasteles y repostería, distribuidores de empaques, y de alimentos para foodservice."
+    "1": "Tenemos el objetivo de encontrar oportunidades de negocio de largo plazo, u operaciones únicas de compra-venta (spot)."
   },
   "aboutParagraph2": {
-    "1": "Representamos empresas líderes en la industria de los alimentos de Canadá, EUA y México. Nuestro enfoque es en programas de abastecimiento hechos a la medida de cada cliente. Nuestra especialidad es convertir oportunidades comerciales en relaciones de negocio."
+    "1": "Terranova Sales es una reconocida agencia de ventas localizada en Vancouver BC, Canadá, con casi 20 años generando relaciones de negocio entre personas y empresas para el beneficio de los propietarios, socios, y consumidores en Canadá, los Estados Unidos, México y Australia."
   },
   "aboutParagraph3": {
     "1": ""
@@ -21,34 +21,58 @@
     "1": "https://www.youtube.com/embed/2nHMyKiSBP8"
   },
   "productsSubtitle": {
-    "1": "Ofrecemos productos de empresas líderes"
+    "1": "Hemos vendido o estamos vendiendo estos productos"
   },
   "productsDescription1": {
-    "1": "Empaques hechos a la medida para frutas y hortalizas, pastelería, repostería y alimentos procesados"
+    "1": "Empaques para alimentos"
   },
   "productsDescription2": {
-    "1": "Productos de atún congelados en presentaciones institucional y menudeo"
+    "1": "Marisco congelado"
   },
   "productsDescription3": {
-    "1": "Productos de aguacate congelados en presentaciones institucional y menudeo"
+    "1": "Muebles"
   },
   "productsDescription4": {
-    "1": "Especialidades enlatadas en presentación institucional"
+    "1": "Vegetales enlatados"
   },
   "productsDescription5": {
-    "1": "Etiquetas y etiquetadoras para frutas y verduras"
+    "1": "Etiquetas y etiquetadoras"
+  },
+  "productsDescription6": {
+    "1": "Equipo de energía renovable"
+  },
+  "productsDescription7": {
+    "1": "Maquinaria pesada"
+  },
+  "productsDescription8": {
+    "1": "Proyectos de automatización"
   },
   "servicesTitle": {
     "1": "Nuestros servicios"
   },
   "servicesSubtitle": {
-    "1": "Proveemos soluciones a la medida"
+    "1": "Trabajamos juntos hacia tus objetivos de venta"
   },
   "servicesParagraph1": {
-    "1": "Contamos con más de 20 años de experiencia en manufactura de empaques, empacado de frutas y verduras, y alimentos procesados; además del extenso conocimiento de nuestros proveedores. Hemos proveído productos y servicios a clientes en Canadá, los Estados Unidos, y México. Nos esforzamos para encontrar la mejor solución para tus necesidades en empaques para alimentos, etiquetado, y equipos para líneas automatizadas."
+    "1": "Nuestros niveles de servicios van desde la identificación de prospectos hasta arreglos logísticos."
   },
-  "servicesParagraph2": {
-    "1": "A través de nuestra división de foodservice, ofrecemos productos de la más alta calidad y el mejor sabor a importantes distribuidores a nivel nacional en Canadá y Australia."
+  "servicesCardTitle1": {
+    "1": "Prospectación"
+  },
+  "servicesCardTitle2": {
+    "1": "Labor de ventas"
+  },
+  "servicesCardTitle3": {
+    "1": "Logistica"
+  },
+  "servicesCardSubtitle1": {
+    "1": "Identificamos y contactamos directamente a clientes potenciales."
+  },
+  "servicesCardSubtitle2": {
+    "1": "Actuamos como una extensión de tu equipo de ventas."
+  },
+  "servicesCardSubtitle3": {
+    "1": "Podemos ayudar a llevar tus productos hasta las puertas de tus clientes con nuestro apoyo en aduana y fletes."
   },
   "contactTitle": {
     "1": "Contáctanos"

@@ -1,18 +1,18 @@
 {
   "heroHeader": {
-    "1": "Supplier and Broker for the Food Industry"
+    "1": "Full-service Sales Agency"
   },
   "aboutTitle": {
     "1": "About Us"
   },
   "aboutSubtitle": {
-    "1": "Custom Solutions and Value for the Long Term"
+    "1": "We take your products to new markets"
   },
   "aboutParagraph1": {
-    "1": "Terranova Sales is an established firm based in Vancouver BC, Canada, with over 15 years serving companies such as produce growers and shippers, commercial bakeries, wholesale packaging distributors, and wholesale foodservice distributors."
+    "1": "Our goal is to find opportiunities for long term business, relationships or spot operations."
   },
   "aboutParagraph2": {
-    "1": "We work with leading companies in the food industry from Canada, the U.S. and Mexico. Our focus is solutions-based and customized supply programs. Our specialty is turning business opportunities into business relationships."
+    "1": "Terranova Sales is an established firm based in Vancouver BC, Canada, with almost 20 years bringing people and companies together for the benefit of owners, shareholders, and consumers in Canada, the United States, Mexico and Australia."
   },
   "aboutParagraph3": {
     "1": ""
@@ -21,34 +21,58 @@
     "1": "https://www.youtube.com/embed/tmtDyTMF1Y0"
   },
   "productsSubtitle": {
-    "1": "We offer products from leading suppliers"
+    "1": "We have sold or are currently selling these products"
   },
   "productsDescription1": {
-    "1": "Customized packaging for produce, bakery and processed foods"
+    "1": "Food packaging"
   },
   "productsDescription2": {
-    "1": "Frozen tuna products for foodservice and retail"
+    "1": "Frozen seafood"
   },
   "productsDescription3": {
-    "1": "Frozen avocado products for foodservice and retail"
+    "1": "Furniture"
   },
   "productsDescription4": {
-    "1": "Canned specialties for foodservice"
+    "1": "Canned vegetables"
   },
   "productsDescription5": {
-    "1": "Fresh produce labeling machines and labels"
+    "1": "Labels and label applicators"
+  },
+  "productsDescription6": {
+    "1": "Renewable energy equipment"
+  },
+  "productsDescription7": {
+    "1": "Heavy equipment"
+  },
+  "productsDescription8": {
+    "1": "Automation projects"
   },
   "servicesTitle": {
     "1": "Services"
   },
   "servicesSubtitle": {
-    "1": "We provide custom solutions"
+    "1": "We work together towards your sales goals"
   },
   "servicesParagraph1": {
-    "1": "Given our more than 20 years of experience in packaging manufacturing, produce packing, and food processing; plus our suppliers’ expertise, we have provided custom products and services to customers in Canada, the U.S., and Mexico. We strive to find the best fit for your needs in food packaging, labeling, and automation equipment."
+    "1": "Our tiers of services range from identifying prospects to logistics arrangements."
   },
-  "servicesParagraph2": {
-    "1": "Through our foodservice division, we bring specialty products of the highest quality and the best flavour to leading national distributors in Canada and Australia."
+  "servicesCardTitle1": {
+    "1": "Prospecting"
+  },
+  "servicesCardTitle2": {
+    "1": "Dedicated sales"
+  },
+  "servicesCardTitle3": {
+    "1": "Logistics"
+  },
+  "servicesCardSubtitle1": {
+    "1": "Identifying and directly contacting potential buyers."
+  },
+  "servicesCardSubtitle2": {
+    "1": "We act as an extension of your sales team."
+  },
+  "servicesCardSubtitle3": {
+    "1": "We can help getting your products to your customers' door with our support in customs and freight."
   },
   "contactTitle": {
     "1": "Contact Us"
