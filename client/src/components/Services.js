@@ -10,17 +10,20 @@ const Services = () => {
     {
       title: t("servicesCardTitle1.1"),
       subtitle: t("servicesCardSubtitle1.1"),
-      imgUrl: "",
+      imgUrl: "./assets/images/prospects.jpg",
+      alt: "prospects",
     },
     {
       title: t("servicesCardTitle2.1"),
       subtitle: t("servicesCardSubtitle2.1"),
-      imgUrl: "",
+      imgUrl: "./assets/images/sales.jpg",
+      alt: "sales call",
     },
     {
       title: t("servicesCardTitle3.1"),
       subtitle: t("servicesCardSubtitle3.1"),
-      imgUrl: "",
+      imgUrl: "./assets/images/logistics.jpg",
+      alt: "logistics",
     },
   ];
 
@@ -42,6 +45,27 @@ const Services = () => {
               </p>
             </div>
           </div>
+        </div>
+        <div className="services__cards-wrapper">
+          {servicesData.map((service) => {
+            return (
+              <div className="services__card">
+                <div className="services__card-top-wrapper">
+                  <img
+                    className="services__card-img"
+                    src={service.imgUrl}
+                    alt={service.alt}
+                  />
+                </div>
+                <div className="services__card-bottom-wrapper">
+                  <span className="services__card-title">{service.title}</span>
+                  <span className="services__card-subtitle">
+                    {service.subtitle}
+                  </span>
+                </div>
+              </div>
+            );
+          })}
         </div>
         <img
           className="services__hero-img"
