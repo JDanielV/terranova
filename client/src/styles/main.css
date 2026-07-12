@@ -1569,7 +1569,7 @@
 
 .contact__title {
   width: 12rem;
-  margin: 0 auto 2rem auto;
+  margin: 0 auto 0.75rem auto;
   font-family: "Circular Std Black";
   font-size: 2rem;
   text-align: center;
@@ -1579,6 +1579,21 @@
   .contact__title {
     font-size: 3.7rem;
     width: auto;
+  }
+}
+
+.contact__subtitle {
+  max-width: 44rem;
+  margin: 0 auto 2.5rem;
+  font-family: "Circular Std Book";
+  line-height: 1.5;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+@media (min-width: 1440px) {
+  .contact__subtitle {
+    font-size: 1.4rem;
   }
 }
 

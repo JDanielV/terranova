@@ -10,6 +10,7 @@ const Contact = () => {
     <section className="contact" id="contact">
       <div className="contact__content-wrapper">
         <h2 className="contact__title">{t("contactTitle.1")}</h2>
+        <p className="contact__subtitle">{t("contactSubtitle.1")}</p>
         <div className="contact__info-form-map-wrapper">
           <div className="contact__img-text-wrapper">
             <img

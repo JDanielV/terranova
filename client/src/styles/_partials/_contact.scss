@@ -21,7 +21,7 @@
 
   &__title {
     width: 12rem;
-    margin: 0 auto 2rem auto;
+    margin: 0 auto 0.75rem auto;
     font-family: "Circular Std Black";
     font-size: $subtitle-font-size-mobile;
     text-align: center;
@@ -29,6 +29,19 @@
     @include desktop {
       font-size: 3.7rem;
       width: auto;
+    }
+  }
+
+  &__subtitle {
+    max-width: 44rem;
+    margin: 0 auto 2.5rem;
+    font-family: "Circular Std Book";
+    line-height: 1.5;
+    text-align: center;
+    font-size: 1.2rem;
+
+    @include desktop {
+      font-size: 1.4rem;
     }
   }
 
