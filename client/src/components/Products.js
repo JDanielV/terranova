@@ -13,8 +13,6 @@ import {
   labelImages,
   furnitureImages,
   automationImages,
-  renewableImages,
-  heavyEquipmentImages,
 } from "../resources/CarouselData.ts";
 
 const Products = () => {
@@ -41,15 +39,13 @@ const Products = () => {
     else if (carouselOpen === "avocado") return avocadoImages;
     else if (carouselOpen === "labels") return labelImages;
     else if (carouselOpen === "furniture") return furnitureImages;
-    else if (carouselOpen === "renewable") return renewableImages;
     else if (carouselOpen === "automation") return automationImages;
-    else if (carouselOpen === "heavyEquipment") return heavyEquipmentImages;
   };
 
   return (
     <section className="products" id="products">
       <div className="products__content-wrapper">
-        <h3 className="products__title">{t("productsSubtitle.1")}</h3>
+        <p className="products__subtitle">{t("productsSubtitle.1")}</p>
         <div className="products__products-wrapper">
           <div className="products__product-wrapper">
             <div
@@ -159,50 +155,6 @@ const Products = () => {
             </div>
             <p className="products__product-category-descr">
               {t("productsDescription4.1")}
-            </p>
-          </div>
-          <div className="products__product-wrapper">
-            <div
-              className="products__product-category-img-container"
-              data-aos="fade-up"
-              data-aos-duration="2000"
-              data-aos-once="true"
-              onClick={() => {
-                toggleCarousel("renewable");
-                disableBodyScroll();
-                document.ontouchmove = (e) => e.preventDefault();
-              }}
-            >
-              <img
-                className="products__product-category-img"
-                src="./assets/images/product-imgs/renewable1.jpg"
-                alt="renewable energy equipment"
-              />
-            </div>
-            <p className="products__product-category-descr">
-              {t("productsDescription6.1")}
-            </p>
-          </div>
-          <div className="products__product-wrapper">
-            <div
-              className="products__product-category-img-container"
-              data-aos="fade-up"
-              data-aos-duration="2000"
-              data-aos-once="true"
-              onClick={() => {
-                toggleCarousel("heavyEquipment");
-                disableBodyScroll();
-                document.ontouchmove = (e) => e.preventDefault();
-              }}
-            >
-              <img
-                className="products__product-category-img"
-                src="./assets/images/product-imgs/heavy-equipment1.jpg"
-                alt="heavy equipment"
-              />
-            </div>
-            <p className="products__product-category-descr">
-              {t("productsDescription7.1")}
             </p>
           </div>
           <div className="products__product-wrapper">

@@ -21,7 +21,7 @@
 		"1": "https://www.youtube.com/embed/tmtDyTMF1Y0"
 	},
 	"productsSubtitle": {
-		"1": "We have sold or are currently selling these products"
+		"1": "This photo album is a recollection of some of the products and industries we have experience in. Click on a photo to enlarge and expand gallery."
 	},
 	"productsDescription1": {
 		"1": "Food packaging"
@@ -37,12 +37,6 @@
 	},
 	"productsDescription5": {
 		"1": "Labels and label applicators"
-	},
-	"productsDescription6": {
-		"1": "Renewable energy equipment"
-	},
-	"productsDescription7": {
-		"1": "Heavy equipment"
 	},
 	"productsDescription8": {
 		"1": "Automation projects"
@@ -126,7 +120,7 @@
 		"1": "About Us"
 	},
 	"navProducts": {
-		"1": "Products"
+		"1": "Photo album"
 	},
 	"navServices": {
 		"1": "Services"

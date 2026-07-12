@@ -658,19 +658,20 @@
   }
 }
 
-.products__title {
-  font-family: "Circular Std Black";
+.products__subtitle {
+  font-family: "Circular Std Book";
   width: 85%;
-  font-size: 2rem;
+  margin: 0 0 2.5rem;
+  line-height: 1.5;
+  font-size: 1.2rem;
 }
 
 @media (min-width: 1440px) {
-  .products__title {
+  .products__subtitle {
     margin: 0 auto 3rem auto;
-    font-size: 2.6rem;
+    font-size: 1.4rem;
     width: 70%;
     text-align: center;
-    line-height: 3.5rem;
   }
 }
 

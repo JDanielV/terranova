@@ -27,17 +27,18 @@
     }
   }
 
-  &__title {
-    font-family: "Circular Std Black";
+  &__subtitle {
+    font-family: "Circular Std Book";
     width: 85%;
-    font-size: $subtitle-font-size-mobile;
+    margin: 0 0 2.5rem;
+    line-height: 1.5;
+    font-size: 1.2rem;
 
     @include desktop {
       margin: 0 auto 3rem auto;
-      font-size: $subtitle-font-size-desktop;
+      font-size: 1.4rem;
       width: 70%;
       text-align: center;
-      line-height: 3.5rem;
     }
   }
 

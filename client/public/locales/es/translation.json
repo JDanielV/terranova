@@ -21,7 +21,7 @@
 		"1": "https://www.youtube.com/embed/2nHMyKiSBP8"
 	},
 	"productsSubtitle": {
-		"1": "Hemos vendido o estamos vendiendo estos productos"
+		"1": "Este álbum de fotos es una recopilación de algunos de los productos e industrias en los que tenemos experiencia. Haz clic en una foto para ampliarla y expandir la galería."
 	},
 	"productsDescription1": {
 		"1": "Empaques para alimentos"
@@ -37,12 +37,6 @@
 	},
 	"productsDescription5": {
 		"1": "Etiquetas y etiquetadoras"
-	},
-	"productsDescription6": {
-		"1": "Equipo de energía renovable"
-	},
-	"productsDescription7": {
-		"1": "Maquinaria pesada"
 	},
 	"productsDescription8": {
 		"1": "Proyectos de automatización"
@@ -126,7 +120,7 @@
 		"1": "Acerca de nosotros"
 	},
 	"navProducts": {
-		"1": "Productos"
+		"1": "Álbum de fotos"
 	},
 	"navServices": {
 		"1": "Servicios"
