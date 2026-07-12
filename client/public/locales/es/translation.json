@@ -51,7 +51,31 @@
 		"1": "Nuestros servicios"
 	},
 	"servicesSubtitle": {
-		"1": "Trabajamos juntos hacia tus objetivos de venta"
+		"1": "Trabajamos con fabricantes que están buscando:"
+	},
+	"servicesNeed1": {
+		"1": "Representación de ventas en un nuevo territorio"
+	},
+	"servicesNeed2": {
+		"1": "Nuevos clientes y manejo de cuenta"
+	},
+	"servicesNeed3": {
+		"1": "Estrategias de entrada al mercado de Canadá y Mexico"
+	},
+	"servicesNeed4": {
+		"1": "Desarrollo de canales de distribución"
+	},
+	"servicesNeed5": {
+		"1": "Proveeduría de productos"
+	},
+	"servicesNeed6": {
+		"1": "Consultoría comercial"
+	},
+	"servicesAvailability": {
+		"1": "Trabajamos con un número limitado de proyectos de desarrollo de negocios."
+	},
+	"servicesApproach": {
+		"1": "Nuestro enfoque es simple: entender el mercado, construir relaciones, crear oportunidades y entregar resultados."
 	},
 	"servicesParagraph1": {
 		"1": "Nuestros niveles de servicios van desde la identificación de prospectos hasta arreglos logísticos."

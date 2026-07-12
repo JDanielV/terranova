@@ -51,7 +51,31 @@
 		"1": "Services"
 	},
 	"servicesSubtitle": {
-		"1": "We work together towards your sales goals"
+		"1": "We work with manufacturers seeking:"
+	},
+	"servicesNeed1": {
+		"1": "Sales representation and territory development"
+	},
+	"servicesNeed2": {
+		"1": "New customers and account management"
+	},
+	"servicesNeed3": {
+		"1": "Market entry strategies for Canada and Mexico"
+	},
+	"servicesNeed4": {
+		"1": "Distribution channels development"
+	},
+	"servicesNeed5": {
+		"1": "Product sourcing"
+	},
+	"servicesNeed6": {
+		"1": "Commercial consulting"
+	},
+	"servicesAvailability": {
+		"1": "We work with a limited number of business development projects."
+	},
+	"servicesApproach": {
+		"1": "Our approach is simple: understand the market, build relationships, create opportunities, and deliver results."
 	},
 	"servicesParagraph1": {
 		"1": "Our tiers of services range from identifying prospects to logistics arrangements."
