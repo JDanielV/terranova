@@ -32,8 +32,8 @@ function App() {
         currentLang={currentLang}
       />
       <HomeAbout />
-      <Products />
       <Services />
+      <Products />
       <MobileFooter languageClick={languageClick} currentLang={currentLang} />
       <Contact />
       <Footer/>

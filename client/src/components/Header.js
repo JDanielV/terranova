@@ -10,10 +10,10 @@ const Header = (props) => {
   const [navLinks, setNavLinks] = useState({
     firstNavLink: t("navAboutUs.1"),
     firstLinkId: "home-about",
-    secondNavLink: t("navProducts.1"),
-    secondLinkId: "products",
-    thirdNavLink: t("navServices.1"),
-    thirdLinkId: "services",
+    secondNavLink: t("navServices.1"),
+    secondLinkId: "services",
+    thirdNavLink: t("navProducts.1"),
+    thirdLinkId: "products",
     fourthNavLink: t("navContact.1"),
     fourthLinkId: "contact",
   });
@@ -26,10 +26,10 @@ const Header = (props) => {
     setNavLinks({
       firstNavLink: t("navAboutUs.1"),
       firstLinkId: "home-about",
-      secondNavLink: t("navProducts.1"),
-      secondLinkId: "products",
-      thirdNavLink: t("navServices.1"),
-      thirdLinkId: "services",
+      secondNavLink: t("navServices.1"),
+      secondLinkId: "services",
+      thirdNavLink: t("navProducts.1"),
+      thirdLinkId: "products",
       fourthNavLink: t("navContact.1"),
       fourthLinkId: "contact",
     });
