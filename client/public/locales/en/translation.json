@@ -1,122 +1,122 @@
 {
-  "heroHeader": {
-    "1": "Full-service Sales Agency"
-  },
-  "aboutTitle": {
-    "1": "About Us"
-  },
-  "aboutSubtitle": {
-    "1": "We take your products to new markets"
-  },
-  "aboutParagraph1": {
-    "1": "Our goal is to find opportunities for long term business relationships or spot operations."
-  },
-  "aboutParagraph2": {
-    "1": "Terranova Sales is an established firm based in Vancouver BC, Canada, with almost 20 years bringing people and companies together for the benefit of owners, shareholders, and consumers in Canada, the United States, Mexico and Australia."
-  },
-  "aboutParagraph3": {
-    "1": ""
-  },
-  "aboutVideo": {
-    "1": "https://www.youtube.com/embed/tmtDyTMF1Y0"
-  },
-  "productsSubtitle": {
-    "1": "We have sold or are currently selling these products"
-  },
-  "productsDescription1": {
-    "1": "Food packaging"
-  },
-  "productsDescription2": {
-    "1": "Frozen seafood"
-  },
-  "productsDescription3": {
-    "1": "Furniture"
-  },
-  "productsDescription4": {
-    "1": "Canned vegetables"
-  },
-  "productsDescription5": {
-    "1": "Labels and label applicators"
-  },
-  "productsDescription6": {
-    "1": "Renewable energy equipment"
-  },
-  "productsDescription7": {
-    "1": "Heavy equipment"
-  },
-  "productsDescription8": {
-    "1": "Automation projects"
-  },
-  "servicesTitle": {
-    "1": "Services"
-  },
-  "servicesSubtitle": {
-    "1": "We work together towards your sales goals"
-  },
-  "servicesParagraph1": {
-    "1": "Our tiers of services range from identifying prospects to logistics arrangements."
-  },
-  "servicesCardTitle1": {
-    "1": "Prospecting"
-  },
-  "servicesCardTitle2": {
-    "1": "Dedicated sales"
-  },
-  "servicesCardTitle3": {
-    "1": "Logistics"
-  },
-  "servicesCardSubtitle1": {
-    "1": "Identifying and directly contacting potential buyers."
-  },
-  "servicesCardSubtitle2": {
-    "1": "We act as an extension of your sales team."
-  },
-  "servicesCardSubtitle3": {
-    "1": "We can help getting your products to your customers' door with our support in customs and freight."
-  },
-  "contactTitle": {
-    "1": "Contact Us"
-  },
-  "contactOffice": {
-    "1": "Office:"
-  },
-  "contactMailing": {
-    "1": "Mailing address:"
-  },
-  "contactRequiredFields": {
-    "1": "(*) All fields are required"
-  },
-  "contactName": {
-    "1": "Name*"
-  },
-  "contactEmail": {
-    "1": "Email*"
-  },
-  "contactMessage": {
-    "1": "Message*"
-  },
-  "contactMessageSent": {
-    "1": "Message sent! We will be in touch soon."
-  },
-  "contactMessageNotSent": {
-    "1": "Sorry, there was a problem sending the message. Please try again."
-  },
-  "contactEmptyFields": {
-    "1": "(*) Please make sure to fill out all fields."
-  },
-  "contactSendMessage": {
-    "1": "Send Message"
-  },
-  "navAboutUs": {
-    "1": "About Us"
-  },
-  "navProducts": {
-    "1": "Products"
-  },
-  "navServices": {
-    "1": "Services"
-  },
-  "navContact": {
-    "1": "Contact Us"
-  }
+	"heroHeader": {
+		"1": "Full-service Sales Agency"
+	},
+	"aboutTitle": {
+		"1": "About Us"
+	},
+	"aboutSubtitle": {
+		"1": "We take your products to new markets"
+	},
+	"aboutParagraph1": {
+		"1": "Terranova Sales is an established firm based in Vancouver BC, Canada, with more than 20 years performing as manufacturers' representative, sales consultant and broker."
+	},
+	"aboutParagraph2": {
+		"1": "We work with manufacturers from Canada and Mexico. Our experience spans retail, foodservice, wholesale, and manufacturing sectors, where we have successfully represented products, managed key accounts, and facilitated cross-border business development."
+	},
+	"aboutParagraph3": {
+		"1": ""
+	},
+	"aboutVideo": {
+		"1": "https://www.youtube.com/embed/tmtDyTMF1Y0"
+	},
+	"productsSubtitle": {
+		"1": "We have sold or are currently selling these products"
+	},
+	"productsDescription1": {
+		"1": "Food packaging"
+	},
+	"productsDescription2": {
+		"1": "Frozen seafood"
+	},
+	"productsDescription3": {
+		"1": "Furniture"
+	},
+	"productsDescription4": {
+		"1": "Canned vegetables"
+	},
+	"productsDescription5": {
+		"1": "Labels and label applicators"
+	},
+	"productsDescription6": {
+		"1": "Renewable energy equipment"
+	},
+	"productsDescription7": {
+		"1": "Heavy equipment"
+	},
+	"productsDescription8": {
+		"1": "Automation projects"
+	},
+	"servicesTitle": {
+		"1": "Services"
+	},
+	"servicesSubtitle": {
+		"1": "We work together towards your sales goals"
+	},
+	"servicesParagraph1": {
+		"1": "Our tiers of services range from identifying prospects to logistics arrangements."
+	},
+	"servicesCardTitle1": {
+		"1": "Prospecting"
+	},
+	"servicesCardTitle2": {
+		"1": "Dedicated sales"
+	},
+	"servicesCardTitle3": {
+		"1": "Logistics"
+	},
+	"servicesCardSubtitle1": {
+		"1": "Identifying and directly contacting potential buyers."
+	},
+	"servicesCardSubtitle2": {
+		"1": "We act as an extension of your sales team."
+	},
+	"servicesCardSubtitle3": {
+		"1": "We can help getting your products to your customers' door with our support in customs and freight."
+	},
+	"contactTitle": {
+		"1": "Contact Us"
+	},
+	"contactOffice": {
+		"1": "Office:"
+	},
+	"contactMailing": {
+		"1": "Mailing address:"
+	},
+	"contactRequiredFields": {
+		"1": "(*) All fields are required"
+	},
+	"contactName": {
+		"1": "Name*"
+	},
+	"contactEmail": {
+		"1": "Email*"
+	},
+	"contactMessage": {
+		"1": "Message*"
+	},
+	"contactMessageSent": {
+		"1": "Message sent! We will be in touch soon."
+	},
+	"contactMessageNotSent": {
+		"1": "Sorry, there was a problem sending the message. Please try again."
+	},
+	"contactEmptyFields": {
+		"1": "(*) Please make sure to fill out all fields."
+	},
+	"contactSendMessage": {
+		"1": "Send Message"
+	},
+	"navAboutUs": {
+		"1": "About Us"
+	},
+	"navProducts": {
+		"1": "Products"
+	},
+	"navServices": {
+		"1": "Services"
+	},
+	"navContact": {
+		"1": "Contact Us"
+	}
 }

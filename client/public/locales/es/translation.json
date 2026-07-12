@@ -1,122 +1,122 @@
 {
-  "heroHeader": {
-    "1": "Agencia de Servicios de Ventas"
-  },
-  "aboutTitle": {
-    "1": "Acerca de nosotros"
-  },
-  "aboutSubtitle": {
-    "1": "Llevamos tus productos a nuevos mercados"
-  },
-  "aboutParagraph1": {
-    "1": "Tenemos el objetivo de encontrar oportunidades de negocio de largo plazo, u operaciones únicas de compra-venta (spot)."
-  },
-  "aboutParagraph2": {
-    "1": "Terranova Sales es una reconocida agencia de ventas localizada en Vancouver BC, Canadá, con casi 20 años generando relaciones de negocio entre personas y empresas para el beneficio de los propietarios, socios, y consumidores en Canadá, los Estados Unidos, México y Australia."
-  },
-  "aboutParagraph3": {
-    "1": ""
-  },
-  "aboutVideo": {
-    "1": "https://www.youtube.com/embed/2nHMyKiSBP8"
-  },
-  "productsSubtitle": {
-    "1": "Hemos vendido o estamos vendiendo estos productos"
-  },
-  "productsDescription1": {
-    "1": "Empaques para alimentos"
-  },
-  "productsDescription2": {
-    "1": "Marisco congelado"
-  },
-  "productsDescription3": {
-    "1": "Muebles"
-  },
-  "productsDescription4": {
-    "1": "Vegetales enlatados"
-  },
-  "productsDescription5": {
-    "1": "Etiquetas y etiquetadoras"
-  },
-  "productsDescription6": {
-    "1": "Equipo de energía renovable"
-  },
-  "productsDescription7": {
-    "1": "Maquinaria pesada"
-  },
-  "productsDescription8": {
-    "1": "Proyectos de automatización"
-  },
-  "servicesTitle": {
-    "1": "Nuestros servicios"
-  },
-  "servicesSubtitle": {
-    "1": "Trabajamos juntos hacia tus objetivos de venta"
-  },
-  "servicesParagraph1": {
-    "1": "Nuestros niveles de servicios van desde la identificación de prospectos hasta arreglos logísticos."
-  },
-  "servicesCardTitle1": {
-    "1": "Prospectación"
-  },
-  "servicesCardTitle2": {
-    "1": "Labor de ventas"
-  },
-  "servicesCardTitle3": {
-    "1": "Logística"
-  },
-  "servicesCardSubtitle1": {
-    "1": "Identificamos y contactamos directamente a clientes potenciales."
-  },
-  "servicesCardSubtitle2": {
-    "1": "Actuamos como una extensión de tu equipo de ventas."
-  },
-  "servicesCardSubtitle3": {
-    "1": "Podemos ayudar a llevar tus productos hasta las puertas de tus clientes con nuestro apoyo en aduana y fletes."
-  },
-  "contactTitle": {
-    "1": "Contáctanos"
-  },
-  "contactOffice": {
-    "1": "Oficina:"
-  },
-  "contactMailing": {
-    "1": "Correspondencia:"
-  },
-  "contactRequiredFields": {
-    "1": "(*) Todos los campos son requeridos"
-  },
-  "contactName": {
-    "1": "Nombre*"
-  },
-  "contactEmail": {
-    "1": "Correo electrónico*"
-  },
-  "contactMessage": {
-    "1": "Mensaje*"
-  },
-  "contactMessageSent": {
-    "1": "Mensaje enviado! Nos pondremos en contacto pronto."
-  },
-  "contactMessageNotSent": {
-    "1": "Disculpa, se produjo un error enviando el mensaje. Por favor intenta de nuevo."
-  },
-  "contactEmptyFields": {
-    "1": "(*) Favor de llenar todos los campos."
-  },
-  "contactSendMessage": {
-    "1": "Enviar Mensaje"
-  },
-  "navAboutUs": {
-    "1": "Acerca de nosotros"
-  },
-  "navProducts": {
-    "1": "Productos"
-  },
-  "navServices": {
-    "1": "Servicios"
-  },
-  "navContact": {
-    "1": "Contacto"
-  }
+	"heroHeader": {
+		"1": "Agencia de Servicios de Ventas"
+	},
+	"aboutTitle": {
+		"1": "Acerca de nosotros"
+	},
+	"aboutSubtitle": {
+		"1": "Llevamos tus productos a nuevos mercados"
+	},
+	"aboutParagraph1": {
+		"1": "Terranova Sales es una reconocida agencia de ventas localizada en Vancouver BC, Canadá, con más de 20 años desempañándose como representante de fabricantes, consultor en ventas y bróker."
+	},
+	"aboutParagraph2": {
+		"1": "Trabajamos con fabricantes de Canadá y México. Nuestra experiencia va desde autoservicios, foodservice, mayoreo, y sector manufacturero, en donde exitosamente hemos representado líneas de productos, manejado cuentas clave y facilitado desarrollo de nuevos negocios internacionales."
+	},
+	"aboutParagraph3": {
+		"1": ""
+	},
+	"aboutVideo": {
+		"1": "https://www.youtube.com/embed/2nHMyKiSBP8"
+	},
+	"productsSubtitle": {
+		"1": "Hemos vendido o estamos vendiendo estos productos"
+	},
+	"productsDescription1": {
+		"1": "Empaques para alimentos"
+	},
+	"productsDescription2": {
+		"1": "Marisco congelado"
+	},
+	"productsDescription3": {
+		"1": "Muebles"
+	},
+	"productsDescription4": {
+		"1": "Vegetales enlatados"
+	},
+	"productsDescription5": {
+		"1": "Etiquetas y etiquetadoras"
+	},
+	"productsDescription6": {
+		"1": "Equipo de energía renovable"
+	},
+	"productsDescription7": {
+		"1": "Maquinaria pesada"
+	},
+	"productsDescription8": {
+		"1": "Proyectos de automatización"
+	},
+	"servicesTitle": {
+		"1": "Nuestros servicios"
+	},
+	"servicesSubtitle": {
+		"1": "Trabajamos juntos hacia tus objetivos de venta"
+	},
+	"servicesParagraph1": {
+		"1": "Nuestros niveles de servicios van desde la identificación de prospectos hasta arreglos logísticos."
+	},
+	"servicesCardTitle1": {
+		"1": "Prospectación"
+	},
+	"servicesCardTitle2": {
+		"1": "Labor de ventas"
+	},
+	"servicesCardTitle3": {
+		"1": "Logística"
+	},
+	"servicesCardSubtitle1": {
+		"1": "Identificamos y contactamos directamente a clientes potenciales."
+	},
+	"servicesCardSubtitle2": {
+		"1": "Actuamos como una extensión de tu equipo de ventas."
+	},
+	"servicesCardSubtitle3": {
+		"1": "Podemos ayudar a llevar tus productos hasta las puertas de tus clientes con nuestro apoyo en aduana y fletes."
+	},
+	"contactTitle": {
+		"1": "Contáctanos"
+	},
+	"contactOffice": {
+		"1": "Oficina:"
+	},
+	"contactMailing": {
+		"1": "Correspondencia:"
+	},
+	"contactRequiredFields": {
+		"1": "(*) Todos los campos son requeridos"
+	},
+	"contactName": {
+		"1": "Nombre*"
+	},
+	"contactEmail": {
+		"1": "Correo electrónico*"
+	},
+	"contactMessage": {
+		"1": "Mensaje*"
+	},
+	"contactMessageSent": {
+		"1": "Mensaje enviado! Nos pondremos en contacto pronto."
+	},
+	"contactMessageNotSent": {
+		"1": "Disculpa, se produjo un error enviando el mensaje. Por favor intenta de nuevo."
+	},
+	"contactEmptyFields": {
+		"1": "(*) Favor de llenar todos los campos."
+	},
+	"contactSendMessage": {
+		"1": "Enviar Mensaje"
+	},
+	"navAboutUs": {
+		"1": "Acerca de nosotros"
+	},
+	"navProducts": {
+		"1": "Productos"
+	},
+	"navServices": {
+		"1": "Servicios"
+	},
+	"navContact": {
+		"1": "Contacto"
+	}
 }
