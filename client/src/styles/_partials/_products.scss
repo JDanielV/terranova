@@ -30,15 +30,15 @@
   &__subtitle {
     font-family: "Circular Std Book";
     width: 85%;
-    margin: 0 0 2.5rem;
+    margin: 0 auto 2.5rem;
     line-height: 1.5;
     font-size: 1.2rem;
+    text-align: center;
 
     @include desktop {
       margin: 0 auto 3rem auto;
       font-size: 1.4rem;
       width: 70%;
-      text-align: center;
     }
   }
 
